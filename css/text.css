@@ -56,7 +56,8 @@ a {
   margin: 0;
   padding: 0;
   width: 38vw;
-  min-width: 16em;
+  min-width: 38vh;
+  max-width: 38vw;
   height: 62vh;
   overflow: hidden;
 }
