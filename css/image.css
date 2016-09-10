@@ -1,16 +1,19 @@
 body {
-
+  margin: 0;
 }
 
 header {
-}
-
-main {
   display: block;
   background-image: url("../resources/images/profile/Portrait1.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  min-height: 100vh !important;
+  min-width: 100% !important;
+}
+
+main {
+
 }
 
 footer {

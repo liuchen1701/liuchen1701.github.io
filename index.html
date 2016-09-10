@@ -22,7 +22,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <!--meta name="description" content="A portfolio template that uses Material Design Lite."-->
   <!--meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0"-->
-  <title>Chen Liu's Home Page</title>
+  <title>Chen Liu</title>
   <!--
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
   <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.grey-pink.min.css" />
@@ -30,7 +30,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"></head>
   -->
 
-  <link rel = "icon" type = "image/png" href = "resources/images/logo/Logo3-Invert.png" />
+  <link rel = "icon" type = "image/png" href = "resources/images/logo/icon_white-thin+black-round/favicon-16x16.png" />
   <link rel = "stylesheet" type="text/css" href = "css/fonts.css">
   <link rel = "stylesheet" type="text/css" href = "css/color.css">
   <link rel = "stylesheet" type="text/css" href = "css/text.css">
@@ -44,30 +44,34 @@
 </head>
 
 <body>
-  <!--
+
   <header>
     <div class="Site-Title">
     </div>
 
-    <! Should have a button for changing language to Chinese >
+    <!-- Should have a button for changing language to Chinese -->
+
+    <a href="index.html" class="logo_with_name">
+      <img src="resources/images/logo/white.png" class="home_logo">
+      <h2 class="home_name">CHEN LIU</h2>
+    </a>
 
     <nav class="Navigation">
-      <a class="Nav-Link" href="index.html">Home</a>
-      <a class="Nav-Link" href="index.html#About-Me">About Me</a>
-      <a class="Nav-Link" href="portfolio.html">Portfolio</a>
-      <a class="Nav-Link" href="blog.html">Personal Blog</a>
-      <a class="Nav-Link" href="gallery.html">Gallery</a>
-      <a class="Nav-Link" href="index.html#Contact">Contact</a>
+      <a class="Nav-Link home_navigation" href="me.html">About Me</a>
+      <a class="Nav-Link home_navigation" href="portfolio.html">Portfolio</a>
+      <a class="Nav-Link home_navigation" href="blog.html">Blog</a>
+      <a class="Nav-Link home_navigation" href="gallery.html">Gallery</a>
+      <a class="Nav-Link home_navigation" href="index.html#Contact">Contact</a>
     </nav>
   </header>
-  -->
+
 
   <main>
     <section class="About-Section" id="About-Me">
-      <h2 class="Section-Title">About Me</h2>
-      <img src="images\Avatar.png" width="5%"
+      <h2 class="Section-Title Description">About Me</h2>
+      <img class="Description" src="#" width="5%"
         alt="Profile Picture of Chen Liu" class="Avatar"/>
-      <div class="About AllText">
+      <div class="About AllText Description">
         <p>I'm Chen Liu.</p>
         <p>
           At this point of my life, I am a 18-year-old Math-CS student of UCSD.
@@ -84,9 +88,8 @@
     </section>
 
     <section class="Portfolio-Section" id="Portfolio">
-      <h2 class="Section-Title">My Porfolio</h2>
-      <img src="#" alt="Portfolio's Sample Picture"/>
-      <div class="Portfolio AllText">
+      <h2 class="Section-Title Description">My Porfolio</h2>
+      <div class="Portfolio AllText Description">
         <p>
           Coding Projects, UI/UX Designs, Applications, On-going Projects,
           and Big Projects I have participated......
@@ -95,13 +98,11 @@
           I aspire to change the world, and here, I will show you how.
         </p>
       </div>
-      <a href="portfolio.html" class="Redirect-From-Home"/>View All</a>
     </section>
 
     <section class="Blog-Section" id="Blog">
-      <h2 class="Section-Title">My Personal Blog</h2>
-      <img src="#" alt="Blog's Sample Picture"/>
-      <div class="Blog AllText">
+      <h2 class="Section-Title Description">My Personal Blog</h2>
+      <div class="Blog AllText Description">
         <p>
           The private palace for my very own spirit.
         </p>
@@ -111,13 +112,12 @@
           critical but appreciative, and most importantly, insightful and open-minded.
         </p>
       </div>
-      <a href="blog.html" class="Redirect-From-Home"/>Explore</a>
     </section>
 
     <section class="Gallery-Section" id="Gallery">
-      <h2 class="Section-Title">My Gallery</h2>
+      <h2 class="Section-Title Description">My Gallery</h2>
       <!-- Should have a slideshow in the background -->
-      <div class="Gallery AllText">
+      <div class="Gallery AllText Description">
         <p>
           Look at the world through my eyes, and my lens.
         </p>
@@ -127,12 +127,11 @@
           and feel every emotion I have felt.
         </p>
       </div>
-      <a href="gallery.html" class="Redirect-From-Home"/>Browse More</a>
     </section>
 
     <section class="Contact-Section" id="Contact">
-      <h2 class="Section-Title">Contact Me</h2>
-      <div class="Contact AllText">
+      <h2 class="Section-Title Description">Contact Me</h2>
+      <div class="Contact AllText Description">
         <address class="Contact-Campus">
           Mailing Address: <br>5240 Fiore Terrace J106<br>San Diego, CA 92122, USA
         </address>
@@ -143,7 +142,7 @@
           </p>
         </address>
       </div>
-      <a href="contact.html"/>Contact Me</a>  <!-- Should pop-out a window, or merge our text field right below these text -->
+      <!-- Should pop-out a window, or merge our text field right below these text -->
     </section>
   </main>
 

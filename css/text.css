@@ -12,8 +12,63 @@ footer {
 }
 
 a {
+  text-decoration: none !important;
 }
 
 .AllText{
   /*display: none;*/
+}
+
+.Description {
+  display: none;
+}
+
+.logo_with_name{
+  position: absolute;
+  height: 6.18%;
+  width: 100%;
+  padding: 8px 16px;
+  overflow: hidden;
+  left: 9.12%;
+}
+
+.home_logo {
+  display: inline-block;
+  height: 100%;
+  top: 0;
+  overflow: hidden;
+  left: 24%;
+}
+
+.home_name {
+  display: inline-block;
+  overflow: hidden;
+  height: 100%;
+  margin: 0;
+  padding: 0px 16px;
+  overflow: hidden;
+  white-space:nowrap;
+  text-align: center;
+}
+
+.Navigation {
+  position: relative;
+  top: 38vh;
+  margin: 0;
+  padding: 0;
+  width: 38%;
+  overflow: hidden;
+}
+
+.home_navigation {
+  display: block;
+  padding: 8px 16px;
+  text-indent: 24%;
+  overflow: hidden;
+  white-space:nowrap;
+}
+
+.home_navigation:hover {
+  background-color: white;
+  color: black;
 }

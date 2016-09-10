@@ -84,3 +84,15 @@ main {
 footer {
   font-family: NotoSansCJKsc-Light;
 }
+
+.home_name {
+  font-family: NotoSansCJKsc-Black;
+  font-size: 4vh;
+  font-weight: bolder;
+}
+
+.home_navigation {
+  font-family: NotoSansCJKsc-Black;
+  font-size: 72px;
+  font-weight: bolder;
+}
