@@ -24,46 +24,47 @@ a {
 }
 
 .logo_with_name{
+  display: block;
   position: absolute;
-  height: 6.18%;
-  width: 100%;
-  padding: 8px 16px;
-  overflow: hidden;
-  left: 9.12%;
+  height: 6.18vh;
+  padding: 0.8vh 0.16vw;
+  overflow: visible;
+  left: 9.12vw;
 }
 
 .home_logo {
-  display: inline-block;
+  float: left;
   height: 100%;
-  top: 0;
   overflow: hidden;
   left: 24%;
 }
 
 .home_name {
-  display: inline-block;
+  float: left;
   overflow: hidden;
   height: 100%;
   margin: 0;
-  padding: 0px 16px;
+  padding: 0 1.6vw;
   overflow: hidden;
   white-space:nowrap;
-  text-align: center;
 }
 
 .Navigation {
+  float: left;
   position: relative;
   top: 38vh;
   margin: 0;
   padding: 0;
-  width: 38%;
+  width: 38vw;
+  min-width: 16em;
+  height: 62vh;
   overflow: hidden;
 }
 
 .home_navigation {
   display: block;
-  padding: 8px 16px;
-  text-indent: 24%;
+  text-indent: 9.12vw;
+  height: 10vh;
   overflow: hidden;
   white-space:nowrap;
 }
