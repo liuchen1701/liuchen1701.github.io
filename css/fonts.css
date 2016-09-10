@@ -1,0 +1,86 @@
+@font-face {
+  font-family: NotoSansCJKsc-Black;
+  src: url('../resources/fonts/NotoSansCJKsc-Black.otf') format("opentype");
+}
+
+@font-face {
+  font-family: NotoSansCJKsc-Bold;
+  src: url('../resources/fonts/NotoSansCJKsc-Bold.otf') format("opentype");
+}
+
+@font-face {
+  font-family: NotoSansCJKsc-Demilight;
+  src: url('../resources/fonts/NotoSansCJKsc-Demilight.otf') format("opentype");
+}
+
+@font-face {
+  font-family: NotoSansCJKsc-Light;
+  src: url('../resources/fonts/NotoSansCJKsc-Light.otf') format("opentype");
+}
+
+@font-face {
+  font-family: NotoSansCJKsc-Medium;
+  src: url('../resources/fonts/NotoSansCJKsc-Medium.otf') format("opentype");
+}
+
+@font-face {
+  font-family: NotoSansCJKsc-Regular;
+  src: url('../resources/fonts/NotoSansCJKsc-Regular.otf') format("opentype");
+}
+
+@font-face {
+  font-family: NotoSansCJKsc-Thin;
+  src: url('../resources/fonts/NotoSansCJKsc-Thin.otf') format("opentype");
+}
+
+@font-face {
+  font-family: NotoSansCJKtc-Black;
+  src: url('../resources/fonts/NotoSansCJKtc-Black.otf') format("opentype");
+}
+
+@font-face {
+  font-family: NotoSansCJKtc-Bold;
+  src: url('../resources/fonts/NotoSansCJKtc-Bold.otf') format("opentype");
+}
+
+@font-face {
+  font-family: NotoSansCJKtc-Demilight;
+  src: url('../resources/fonts/NotoSansCJKtc-Demilight.otf') format("opentype");
+}
+
+@font-face {
+  font-family: NotoSansCJKtc-Light;
+  src: url('../resources/fonts/NotoSansCJKtc-Light.otf') format("opentype");
+}
+
+@font-face {
+  font-family: NotoSansCJKtc-Medium;
+  src: url('../resources/fonts/NotoSansCJKtc-Medium.otf') format("opentype");
+}
+
+@font-face {
+  font-family: NotoSansCJKtc-Regular;
+  src: url('../resources/fonts/NotoSansCJKtc-Regular.otf') format("opentype");
+}
+
+@font-face {
+  font-family: NotoSansCJKtc-Thin;
+  src: url('../resources/fonts/NotoSansCJKtc-Thin.otf') format("opentype");
+}
+
+body {
+  /*background-color: black;*/
+  font-family: NotoSansCJKsc-Regular;
+}
+
+header {
+  font-family: NotoSansCJKsc-Bold;
+}
+
+main {
+  font-family: NotoSansCJKsc-Regular;
+}
+
+footer {
+  font-family: NotoSansCJKsc-Light;
+}
