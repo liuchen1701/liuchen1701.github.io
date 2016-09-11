@@ -7,18 +7,17 @@ body {
 
 /* Text in Header element */
 header {
-  min-height: 7.78vh;
 }
 
 /* Text in Main element */
 main {
-  width: 100vw;
-  min-height: 92.22vh;
+  display: block;
+  position: absolute;
+  float: left;
 }
 
 /* Text in Footer element */
 footer {
-
 }
 
 /* Text in every anchor link */
@@ -33,8 +32,6 @@ ul {
 
 /* Text in every Navigation element */
 nav {
-  display: inline-block;
-  float: right;
   overflow: hidden;
 }
 
@@ -46,9 +43,6 @@ header.home {
 }
 
 main.home {
-  display: block;
-  float: left;
-  position: absolute;
   top: 0;
   left: 38vw;
   height: 100vh;
@@ -62,13 +56,8 @@ main.home {
   height: 100vh;
 }
 
-.description_section {
-  position: absolute;
-  margin: 0 6.18vw;
-  top: 10vh;
-}
-
 .home.description_section {
+  position: absolute;
   left: 0;
   margin: 0 6.18vw;
   top: 50vh;
@@ -83,7 +72,7 @@ main.home {
   text-align: justify;
 }
 
-.logo_with_name{
+.home.logo_with_name{
   display: block;
   position: absolute;
   height: 6.18vh;
@@ -92,14 +81,14 @@ main.home {
   left: 9.12vw;
 }
 
-.logo_on_header {
+.home.logo_on_header {
   float: left;
   height: 100%;
   overflow: hidden;
   left: 24%;
 }
 
-.name_on_header {
+.home.name_on_header {
   float: left;
   overflow: hidden;
   height: 100%;
@@ -107,12 +96,6 @@ main.home {
   padding: 0 1.6vw;
   overflow: hidden;
   white-space:nowrap;
-}
-
-.me_html.navigation, .portfolio_html.navigation, .blog_html.navigation, .gallery_html.navigation, .contact_html.navigation {
-  position: relative;
-  right: 9.12vw;
-  height: 7.78vh;
 }
 
 .home.navigation {
@@ -125,18 +108,6 @@ main.home {
   min-width: 38vh;
   max-width: 38vw;
   height: 62vh;
-}
-
-.me_html.navigation_link, .portfolio_html.navigation_link, .blog_html.navigation_link, .gallery_html.navigation_link, .contact_html.navigation_link {
-  display: inline-block;
-  position: relative;
-  margin: 0;
-  min-width: 6.18vw;
-  height: 100%;
-  line-height: 7.78vh;
-  top: 3.89vh;
-  transform: translateY(-50%);
-  text-align: center;
 }
 
 .home.navigation_link {
@@ -186,9 +157,6 @@ main.home {
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of db9e4af... Revert "Major Change 2"
 
 /* Deal with navigation bar issue when resizing */
 @media (max-aspect-ratio: 11/10) {
@@ -217,10 +185,7 @@ main.home {
     display: none;
   }
 }
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 7c77ebc... Major Change 2
 =======
 >>>>>>> parent of 7c77ebc... Major Change 2
-=======
->>>>>>> parent of db9e4af... Revert "Major Change 2"
