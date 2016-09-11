@@ -1,3 +1,7 @@
+/*
+ * Font faces for each font family with different weight
+ */
+
 @font-face {
   font-family: NotoSansCJKsc-Black;
   src: url('../resources/fonts/NotoSansCJKsc-Black.otf') format("opentype");
@@ -68,6 +72,10 @@
   src: url('../resources/fonts/NotoSansCJKtc-Thin.otf') format("opentype");
 }
 
+
+
+/* Defind fonts based on sections */
+
 body {
   /*background-color: black;*/
   font-family: NotoSansCJKsc-Regular;
@@ -83,7 +91,12 @@ main {
 
 footer {
   font-family: NotoSansCJKsc-Light;
+  font-size: 1.2vh;
 }
+
+
+
+/* Define fonts based on classes */
 
 .home_name {
   font-family: NotoSansCJKsc-Black;
@@ -95,4 +108,9 @@ footer {
   font-family: NotoSansCJKsc-Black;
   font-size: 6vh;
   font-weight: bolder;
+}
+
+.copyright {
+  font-family: NotoSansCJKsc-Thin;
+  font-size: 1.5vh;
 }

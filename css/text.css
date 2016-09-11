@@ -1,19 +1,40 @@
+/* Below define the general element's text */
+
+/* Body section's text */
 body {
   text-align: justify;
 }
 
+/* Text in Header element */
 header {
 }
 
+/* Text in Main element */
 main {
 }
 
+/* Text in Footer element */
 footer {
 }
 
+/* Text in every anchor link */
 a {
   text-decoration: none !important;
 }
+
+/* Text in every unorder list */
+ul {
+    list-style-type: none;
+}
+
+/* Text in every Navigation element */
+nav {
+  overflow: hidden;
+}
+
+
+
+/* Below define the text by class */
 
 .AllText{
   /*display: none;*/
@@ -59,18 +80,38 @@ a {
   min-width: 38vh;
   max-width: 38vw;
   height: 62vh;
-  overflow: hidden;
 }
 
 .home_navigation {
   display: block;
   text-indent: 9.12vw;
   height: 10vh;
-  overflow: hidden;
   white-space:nowrap;
 }
 
-.home_navigation:hover {
-  background-color: white;
-  color: black;
+.footer_element {
+  margin: 1vh 1vw;
+  padding: 0;
+  display: inline-block;
+  position: relative;
+  height: 100%;
+}
+
+.copyright {
+  margin: 4.05vh 0;
+  line-height: 1.5vh;
+  float: left;
+  left: 38vw;
+  text-align: center;
+}
+
+.footer_list {
+  float: right;
+  align-content: right;
+  right: 6.18vw;
+}
+
+.footer_list_element {
+  line-height: 1.2vh;
+  margin: 1vh 1vw;
 }
