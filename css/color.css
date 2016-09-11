@@ -22,19 +22,37 @@ main.home {
   background-color: transparent;
 }
 
+
 header.me_html {
-  background-color: rgb(146, 182, 213);
+  background-color:#91A8D0;
 }
+
+header.portfolio_html {
+  background-color:#F7786B;
+}
+
+header.blog_html {
+  background-color:#79C753;
+}
+
+header.gallery_html {
+  background-color:#9896A4;
+}
+
+header.contact_html {
+  background-color:#FAE03C;
+}
+
 
 .home.navigation_link:hover {
   background-color: white;
   color: black;
 }
 
+
 .me_html.navigation_link:hover {
   background-color: rgb(76, 106, 146);
 }
-
 
 .portfolio_html.navigation_link:hover {
   background-color: rgb(185, 58, 50);

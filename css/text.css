@@ -54,7 +54,6 @@ main.home {
   height: 100vh;
   overflow: hidden;
   text-overflow: ellipsis;
-  display: none;
 }
 
 .home.description {
