@@ -60,6 +60,7 @@ main.home {
   position: relative;
   width: 62vw;
   height: 100vh;
+  display: none;
 }
 
 .description_section {
