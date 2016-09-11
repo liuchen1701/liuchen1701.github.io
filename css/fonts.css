@@ -94,19 +94,19 @@ footer {
   font-size: 82.5%;
 }
 
+nav {
+  font-family: NotoSansCJKsc-Black;
+  font-size: 6vh;
+  font-weight: bolder;
+}
+
 
 
 /* Define fonts based on classes */
 
-.home_name {
+.home.name_on_header {
   font-family: NotoSansCJKsc-Black;
   font-size: 4vh;
-  font-weight: bolder;
-}
-
-.home_navigation {
-  font-family: NotoSansCJKsc-Black;
-  font-size: 6vh;
   font-weight: bolder;
 }
 

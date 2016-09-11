@@ -13,7 +13,7 @@
   <!-- Define the favicon of this webpage -->
   <link rel="icon" type="image/png" href="resources/images/logo/icon_white-thin+black-round/favicon-16x16.png" />
 
-  <!-- Link to the .css stylesheets files for this webpage -->
+  <!-- link to the .css stylesheets files for this webpage -->
   <link rel="stylesheet" type="text/css" href="css/fonts.css">
   <link rel="stylesheet" type="text/css" href="css/color.css">
   <link rel="stylesheet" type="text/css" href="css/text.css">
@@ -32,12 +32,10 @@
 
 
 <!-- The Body Section -->
-<body>
+<body class="home">
 
   <!-- The Header element of this webpage -->
-  <header>
-    <div class="Site-Title">
-    </div>
+  <header class="home">
 
     <!-- Should have a button for changing language to Chinese -->
 
@@ -51,11 +49,11 @@
       Size:
         Defined in text.css.
     -->
-    <a href="index.html" class="logo_with_name">
-      <img src="resources/images/logo/white.png" class="home_logo">
+    <a href="index.html" class="home logo_with_name">
+      <img src="resources/images/logo/white.png" class="home logo_on_header">
 
       <!-- Font: Defined in fonts.css -->
-      <h2 class="home_name">CHEN LIU</h2>
+      <h2 class="home name_on_header">CHEN LIU</h2>
     </a>
 
     <!--
@@ -68,105 +66,162 @@
       Interaction:
         On hover, the color reversed. Defined in color.css.
     -->
-    <nav class="Navigation">
-      <a class="Nav-Link home_navigation" href="html/me.html">About Me</a>
-      <a class="Nav-Link home_navigation" href="html/portfolio.html">Portfolio</a>
-      <a class="Nav-Link home_navigation" href="html/blog.html">Blog</a>
-      <a class="Nav-Link home_navigation" href="html/gallery.html">Gallery</a>
-      <a class="Nav-Link home_navigation" href="html/contact.html">Contact</a>
+    <nav class="home navigation">
+      <a class="home navigation_link about_me" href="html/me.html">
+        About Me
+      </a>
+
+      <a class="home navigation_link portfolio" href="html/portfolio.html">
+        Portfolio
+      </a>
+
+      <a class="home navigation_link blog" href="html/blog.html">
+        Blog
+      </a>
+
+      <a class="home navigation_link gallery" href="html/gallery.html">
+        Gallery
+      </a>
+
+      <a class="home navigation_link contact" href="html/contact.html">
+        Contact
+      </a>
     </nav>
   </header>
 
   <!-- The Main element of this webpage -->
-  <main>
-    <section class="About-Section" id="About-Me">
-      <h2 class="Section-Title Description">About Me</h2>
-      <img class="Description" src="#" width="5%"
-        alt="Profile Picture of Chen Liu" class="Avatar"/>
-      <div class="About AllText Description">
-        <p>I'm Chen Liu.</p>
-        <p>
-          At this point of my life, I am a 18-year-old Math-CS student of UCSD.
-          With an ambitious plan, I view myself as a future full-stack developer,
-          software engineer, and UX designer.
-        </p>
-        <p>
-          Before my college, I used to live in my hometown, Huizhou, for almost 18 years.
-          I have spent six-year life in Huizhou No.11 Primary School,
-          and another six-year life in Huizhou No.1 Middle School.
-        </p>
-      </div>
-      <!-- Should have expanded field for my hobbies -->
-    </section>
+  <main class="home">
 
-    <section class="Portfolio-Section" id="Portfolio">
-      <h2 class="Section-Title Description">My Porfolio</h2>
-      <div class="Portfolio AllText Description">
-        <p>
-          Coding Projects, UI/UX Designs, Applications, On-going Projects,
-          and Big Projects I have participated......
-        </p>
-        <p>
-          I aspire to change the world, and here, I will show you how.
-        </p>
-      </div>
-    </section>
+    <div class="home description">
+      <!-- Description section for About Me -->
+      <section class="home about_me main_element description_section" id="About-Me">
 
-    <section class="Blog-Section" id="Blog">
-      <h2 class="Section-Title Description">My Personal Blog</h2>
-      <div class="Blog AllText Description">
-        <p>
-          The private palace for my very own spirit.
-        </p>
-        <p>
-          Most of the exhibits are in Chinese, as it is always my mother language.
-          If you decide to have a tour, please be peaceful but passionate,
-          critical but appreciative, and most importantly, insightful and open-minded.
-        </p>
-      </div>
-    </section>
+        <!-- Title -->
+        <h2 class="home about_me description_section_element description_title">
+          About Me
+        </h2>
 
-    <section class="Gallery-Section" id="Gallery">
-      <h2 class="Section-Title Description">My Gallery</h2>
-      <!-- Should have a slideshow in the background -->
-      <div class="Gallery AllText Description">
-        <p>
-          Look at the world through my eyes, and my lens.
-        </p>
-        <p>
-          Come and experience every excited moment I have experienced,
-          visit every place I have visited, meet every person I have met,
-          and feel every emotion I have felt.
-        </p>
-      </div>
-    </section>
-
-    <section class="Contact-Section" id="Contact">
-      <h2 class="Section-Title Description">Contact Me</h2>
-      <div class="Contact AllText Description">
-        <address class="Contact-Campus">
-          Mailing Address: <br>5240 Fiore Terrace J106<br>San Diego, CA 92122, USA
-        </address>
-        <address class="invisible">
-          <p class="Contact-China">#2143, Building 304, Dong Hu Garden | 516002 | Huicheng District, Huizhou City, Guangdong Province, China</p>
-          <p class="Emergency-Contact">Personal Phone in the USA: +1-858-666-5391<br>Personal Phone in China: +86-13169116036<br>
-            <p>Emergency Contacter: <br>Mother: +86-13809663254 <br>Father: +86-13502297101 <br>Home in China: +86-751-2152233</p>
+        <!-- Main Body -->
+        <div class="home about_me description_section_element description_main_body">
+          <p class="home about_me description_main_body_element">
+            I'm Chen Liu.
           </p>
-        </address>
-      </div>
-      <!-- Should pop-out a window, or merge our text field right below these text -->
-    </section>
+          <p class="home about_me description_main_body_element">
+            At this point of my life, I am a 18-year-old Computer Science undergraduate student of UCSD.
+            With an ambitious plan, I view myself as a future full-stack developer,
+            software engineer, and UX designer.
+          </p>
+          <p class="home about_me description_main_body_element">
+            Before my college, I used to live in my hometown, Huizhou, for almost 18 years.
+            I have spent six-year life in Huizhou No.11 Primary School,
+            and another six-year life in Huizhou No.1 Middle School.
+          </p>
+        </div>
+
+        <!-- Should have expanded field for my hobbies -->
+      </section>
+
+      <!-- Description section for Portfolio -->
+      <section class="home portfolio main_element description_section" id="Portfolio">
+
+        <!-- Title -->
+        <h2 class="home portfolio description_section_element description_title">
+          My Porfolio
+        </h2>
+
+        <!-- Main Body -->
+        <div class="home portfolio description_section_element description_main_body">
+          <p class="home portfolio description_main_body_element">
+            Coding Projects, UI/UX Designs, Applications, On-going Projects,
+            and Big Projects I have participated......
+          </p>
+          <p class="home portfolio description_main_body_element">
+            I aspire to change the world, and here, I will show you how.
+          </p>
+        </div>
+
+      </section>
+
+      <!-- Description section for My Blog -->
+      <section class="home blog main_element description_section" id="Blog">
+
+        <!-- Title -->
+        <h2 class="home blog description_section_element description_title">
+          My Personal Blog
+        </h2>
+
+        <!-- Main Body -->
+        <div class="home blog description_section_element description_main_body">
+          <p class="home blog description_main_body_element">
+            The private palace for my very own spirit.
+          </p>
+          <p class="home blog description_main_body_element">
+            Most of the exhibits are in Chinese, as it is always my mother language.
+            If you decide to have a tour, please be peaceful but passionate,
+            critical but appreciative, and most importantly, insightful and open-minded.
+          </p>
+        </div>
+
+      </section>
+
+      <!-- Description section for My Gallery -->
+      <section class="home gallery main_element description_section" id="Gallery">
+
+        <!-- Title -->
+        <h2 class="home gallery description_section_element description_title">
+          My Gallery
+        </h2>
+
+        <!-- Main Body -->
+        <!-- Should have a slideshow in the background -->
+        <div class="home gallery description_section_element description_main_body">
+          <p class="home gallery description_main_body_element">
+            Look at the world through my eyes, and my lens.
+          </p>
+          <p class="home gallery description_main_body_element">
+            Come and experience every excited moment I have experienced,
+            visit every place I have visited, meet every person I have met,
+            and feel every emotion I have felt.
+          </p>
+        </div>
+
+      </section>
+
+      <!-- Description section for Contact Me -->
+      <section class="home contact main_element description_section" id="Contact">
+
+        <!-- Title -->
+        <h2 class="home contact description_section_element description_title">
+          Contact Me
+        </h2>
+
+        <!-- Main Body -->
+        <div class="home contact description_section_element description_main_body">
+          <address class="home contact description_main_body_element">
+            Mailing Address: <br>5240 Fiore Terrace J106<br>San Diego, CA 92122, USA
+          </address>
+          <address class="home contact invisible description_main_body_element">
+            <p class="home contact china_contact">#2143, Building 304, Dong Hu Garden | 516002 | Huicheng District, Huizhou City, Guangdong Province, China</p>
+            <p class="home contact emergency_contact">Personal Phone in the USA: +1-858-666-5391<br>Personal Phone in China: +86-13169116036<br>
+              <p>Emergency Contacter: <br>Mother: +86-13809663254 <br>Father: +86-13502297101 <br>Home in China: +86-751-2152233</p>
+            </p>
+          </address>
+        </div>
+
+        <!-- Should pop-out a window, or merge our text field right below these text -->
+      </section>
+    </div>
   </main>
 
   <!-- The Footer element of this page -->
-  <footer>
+  <footer class="home">
 
     <!-- Copyright info of this whole site -->
-    <p class="copyright footer_element">
+    <p class="home copyright footer_element">
       Copyright &copy; 2016 Chen Liu All Rights Reserved.
     </p>
 
-    <ul class="footer_list footer_element">
+    <ul class="home footer_list footer_element">
 
       <!--
         Description:
@@ -175,7 +230,7 @@
         Interaction:
           Should pop-out a window.
       -->
-      <li class="report_bug footer_list_element">
+      <li class="home report_bug footer_list_element">
         <a href="#">Report a Bug</a>
       </li>
 
@@ -186,12 +241,12 @@
         Interaction:
           Should pop-out a window.
       -->
-      <li class="improvement footer_list_element">
+      <li class="home improvement footer_list_element">
         <a href="#">Suggest for Improvement</a>
       </li>
 
       <!-- Contact me -->
-      <li class="contact footer_list_element">
+      <li class="home contact footer_list_element">
         <a href="contact.html">Contact Me</a>
       </li>
 

@@ -7,6 +7,8 @@ header {
 }
 
 main {
+  background-color: white;
+  color: black;
 }
 
 footer {
@@ -16,12 +18,11 @@ a {
   color: white;
 }
 
-.AllText {
-  background-color: white;
-  color: black;
+main.home {
+  background-color: transparent;
 }
 
-.home_navigation:hover {
+.home.navigation_link:hover {
   background-color: white;
   color: black;
 }

@@ -11,6 +11,9 @@ header {
 
 /* Text in Main element */
 main {
+  display: block;
+  position: absolute;
+  float: left;
 }
 
 /* Text in Footer element */
@@ -36,15 +39,40 @@ nav {
 
 /* Below define the text by class */
 
-.AllText{
-  /*display: none;*/
+header.home {
 }
 
-.Description {
-  display: none;
+main.home {
+  top: 0;
+  left: 38vw;
+  height: 100vh;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-.logo_with_name{
+.home.description {
+  position: relative;
+  width: 62vw;
+  height: 100vh;
+}
+
+.home.description_section {
+  position: absolute;
+  left: 0;
+  margin: 0 6.18vw;
+  top: 50vh;
+	transform: translateY(-50%);
+  visibility: hidden;
+}
+
+.home.description_title {
+}
+
+.home.description_main_body_element {
+  text-align: justify;
+}
+
+.home.logo_with_name{
   display: block;
   position: absolute;
   height: 6.18vh;
@@ -53,14 +81,14 @@ nav {
   left: 9.12vw;
 }
 
-.home_logo {
+.home.logo_on_header {
   float: left;
   height: 100%;
   overflow: hidden;
   left: 24%;
 }
 
-.home_name {
+.home.name_on_header {
   float: left;
   overflow: hidden;
   height: 100%;
@@ -70,7 +98,7 @@ nav {
   white-space:nowrap;
 }
 
-.Navigation {
+.home.navigation {
   float: left;
   position: relative;
   top: 38vh;
@@ -82,11 +110,12 @@ nav {
   height: 62vh;
 }
 
-.home_navigation {
+.home.navigation_link {
   display: block;
   text-indent: 9.12vw;
   height: 10vh;
   white-space:nowrap;
+  visibility: visible !important;
 }
 
 .footer_element {
