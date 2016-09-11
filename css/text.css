@@ -144,6 +144,7 @@ main.home {
   line-height: 1.2vh;
   margin: 1vh 1vw;
 }
+<<<<<<< HEAD
 
 
 
@@ -155,6 +156,7 @@ main.home {
     clear: both;
   }
 }
+<<<<<<< HEAD
 
 /* Deal with navigation bar issue when resizing */
 @media (max-aspect-ratio: 11/10) {
@@ -183,3 +185,7 @@ main.home {
     display: none;
   }
 }
+=======
+>>>>>>> parent of 7c77ebc... Major Change 2
+=======
+>>>>>>> parent of 9c14e6a... Further change on resolving footer element's collision
