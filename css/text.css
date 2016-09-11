@@ -159,7 +159,7 @@ main.home {
 
 /* Deal with navigation bar issue when resizing */
 @media (max-aspect-ratio: 11/10) {
-  .me.logo_with_name, .portfolio_html.logo_with_name, .blog_html.logo_with_name, .gallery_html.logo_with_name, .contact_html.logo_with_name {
+  .logo_with_name {
     display: none;
   }
 
@@ -176,7 +176,7 @@ main.home {
 
 /* Deal with navigation bar issue when resizing */
 @media (max-aspect-ratio: 2/3) {
-  .me.logo_with_name, .portfolio_html.logo_with_name, .blog_html.logo_with_name, .gallery_html.logo_with_name, .contact_html.logo_with_name {
+  .logo_with_name {
     display: none;
   }
 
