@@ -115,3 +115,14 @@ nav {
   line-height: 1.2vh;
   margin: 1vh 1vw;
 }
+
+
+
+/* Define fonts under certain media query */
+
+/* Separate the footer elements to different lines when they collide */
+@media (max-aspect-ratio: 9/8) {
+  .footer_element {
+    clear: both;
+  }
+}

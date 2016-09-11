@@ -118,7 +118,9 @@ footer {
 
 
 /* Define fonts under certain media query */
-@media (max-height: 603px) {
+
+/* When height smaller than 600 pixel, fix the footer's font size */
+@media (max-height: 600px) {
   footer {
     font-family: NotoSansCJKsc-Light;
     font-size: 2.4vh;
@@ -130,7 +132,8 @@ footer {
   }
 }
 
-@media (min-height: 1204px) {
+/* When height greater than 1200 pixel, fix the footer's font size */
+@media (min-height: 1200px) {
   footer {
     font-family: NotoSansCJKsc-Light;
     font-size: 1.2vh;
