@@ -54,13 +54,13 @@ main.home {
   height: 100vh;
   overflow: hidden;
   text-overflow: ellipsis;
+  display: none;
 }
 
 .home.description {
   position: relative;
   width: 62vw;
   height: 100vh;
-  display: none;
 }
 
 .description_section {
