@@ -1,71 +1,162 @@
 <!DOCTYPE html>
-<!--
-  Material Design Lite
-  Copyright 2015 Google Inc. All rights reserved.
 
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-      https://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License
--->
 <html lang="en">
 
+<!-- The Head Section -->
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <!--meta name="description" content="A portfolio template that uses Material Design Lite."-->
-  <!--meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0"-->
-  <title>Chen Liu's Portfolio</title>
-  <!--
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
-  <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.grey-pink.min.css" />
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"></head>
-  -->
-  <link rel = "icon" type = "image/png" href = "images/Logo3-Invert.png" />
 
+  <!-- Define the Title of this webpage -->
+  <title>Chen Liu - Portfolio</title>
+
+  <!-- Define the favicon of this webpage -->
+  <link rel="icon" type="image/png" href="../resources/images/logo/icon_white-thin+black-round/favicon-16x16.png" />
+
+  <!-- link to the .css stylesheets files for this webpage -->
+  <link rel="stylesheet" type="text/css" href="../css/fonts.css">
+  <link rel="stylesheet" type="text/css" href="../css/color.css">
+  <link rel="stylesheet" type="text/css" href="../css/text.css">
+  <link rel="stylesheet" type="text/css" href="../css/image.css">
+  <meta name="viewport" content="height=device-height">
+  <meta name="viewport" content="width=device-width">
+
+  <!-- Temporarily hidding something -->
   <style>
-  .Invisible-Info {
+  .invisible {
     display: none;
   }
   </style>
 
-<body>
-  <header>
-    <div class="Site-Title">
-    </div>
+</head>
+
+
+<!-- The Body Section -->
+<body class="portfolio_html">
+
+  <!-- The Header element of this webpage -->
+  <header class="portfolio_html">
 
     <!-- Should have a button for changing language to Chinese -->
 
-    <nav class="Navigation">
-      <a class="Nav-Link" href="index.html">Home</a>
-      <a class="Nav-Link" href="index.html#About-Me">About Me</a>
-      <a class="Nav-Link" href="portfolio.html">Portfolio</a>
-      <a class="Nav-Link" href="blog.html">Personal Blog</a>
-      <a class="Nav-Link" href="gallery.html">Gallery</a>
-      <a class="Nav-Link" href="contact.html">Contact</a>
+    <!--
+      Description:
+        Define my logo and my name on the top bar of the page.
+        Can be used as link to Home Page (index.html).
+      Color:
+        White for dark scheme pages, and black for bright ones.
+        Defined by image src & as word color in color.css.
+      Size:
+        Defined in text.css.
+    -->
+    <a href="../index.html" class="portfolio_html logo_with_name">
+      <img src="../resources/images/logo/white.png" class="portfolio_html logo_on_header">
+
+      <!-- Font: Defined in fonts.css -->
+      <h2 class="portfolio_html name_on_header">CHEN LIU</h2>
+    </a>
+
+    <!--
+      Description:
+        Navigation links for directing to each sub-pages.
+      Color:
+        Defined as word color in color.css.
+      Size:
+        Defined in text.css.
+      Interaction:
+        On hover, the color reversed. Defined in color.css.
+    -->
+    <nav class="portfolio_html navigation">
+      <a class="portfolio_html navigation_link to_home" href="../index.html">
+        Home
+      </a>
+
+      <a class="portfolio_html navigation_link about_me" href="me.html">
+        About Me
+      </a>
+
+      <a class="portfolio_html navigation_link portfolio" href="portfolio.html">
+        Portfolio
+      </a>
+
+      <a class="portfolio_html navigation_link blog" href="blog.html">
+        Blog
+      </a>
+
+      <a class="portfolio_html navigation_link gallery" href="gallery.html">
+        Gallery
+      </a>
+
+      <a class="portfolio_html navigation_link contact" href="contact.html">
+        Contact
+      </a>
     </nav>
   </header>
 
-  <main>
-    <h1>
+  <!-- The Main element of this webpage -->
+  <main class="portfolio_html">
 
-    </h1>
+    <div class="portfolio_html description">
+      <!-- Description section for Portfolio -->
+      <section class="portfolio_html portfolio main_element description_section" id="Portfolio">
+
+        <!-- Title -->
+        <h2 class="portfolio_html portfolio description_section_element description_title">
+          My Porfolio
+        </h2>
+
+        <!-- Main Body -->
+        <div class="portfolio_html portfolio description_section_element description_main_body">
+          <p class="portfolio_html portfolio description_main_body_element">
+            Coding Projects, UI/UX Designs, Applications, On-going Projects,
+            and Big Projects I have participated......
+          </p>
+          <p class="portfolio_html portfolio description_main_body_element">
+            I aspire to change the world, and here, I will show you how.
+          </p>
+        </div>
+
+      </section>
+    </div>
   </main>
 
-  <footer>
-    <ul class="Footer-List">
-      <li>Copyright &copy; 2016 Chen Liu All Rights Reserved.</li>
-      <li><a href="#">Report a Bug</a></li> <!-- Should pop-out a window -->
-      <li><a href="#">Suggest for Improvement</a></li>  <!-- Should pop-out a window -->
-      <li><a href="contact.html">Contact Me</a></li>  <!-- Should pop-out a window -->
+  <!-- The Footer element of this page -->
+  <footer class="portfolio_html">
+
+    <!-- Copyright info of this whole site -->
+    <p class="portfolio_html copyright footer_element">
+      Copyright &copy; 2016 Chen Liu All Rights Reserved.
+    </p>
+
+    <ul class="portfolio_html footer_list footer_element">
+
+      <!--
+        Description:
+          Anchor link that is used to report bugs in any of this website
+          to me.
+        Interaction:
+          Should pop-out a window.
+      -->
+      <li class="portfolio_html report_bug footer_list_element">
+        <a href="#">Report a Bug</a>
+      </li>
+
+      <!--
+        Description:
+          Anchor link that is used to suggest any improvement about this
+          website to me.
+        Interaction:
+          Should pop-out a window.
+      -->
+      <li class="portfolio_html improvement footer_list_element">
+        <a href="#">Suggest for Improvement</a>
+      </li>
+
+      <!-- Contact me -->
+      <li class="portfolio_html contact footer_list_element">
+        <a href="contact.html">Contact Me</a>
+      </li>
+
       <!-- Should have a button for changing language to Chinese -->
     </ul>
   </footer>
