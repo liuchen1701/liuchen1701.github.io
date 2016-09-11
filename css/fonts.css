@@ -91,7 +91,7 @@ main {
 
 footer {
   font-family: NotoSansCJKsc-Light;
-  font-size: 1.2vh;
+  font-size: 82.5%;
 }
 
 
@@ -113,4 +113,31 @@ footer {
 .copyright {
   font-family: NotoSansCJKsc-Thin;
   font-size: 1.5vh;
+}
+
+
+
+/* Define fonts under certain media query */
+@media (max-height: 603px) {
+  footer {
+    font-family: NotoSansCJKsc-Light;
+    font-size: 2.4vh;
+  }
+
+  .copyright {
+    font-family: NotoSansCJKsc-Thin;
+    font-size: 1.5vh;
+  }
+}
+
+@media (min-height: 1204px) {
+  footer {
+    font-family: NotoSansCJKsc-Light;
+    font-size: 1.2vh;
+  }
+
+  .copyright {
+    font-family: NotoSansCJKsc-Thin;
+    font-size: 1.5vh;
+  }
 }
