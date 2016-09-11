@@ -156,6 +156,7 @@ main.home {
   }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 /* Deal with navigation bar issue when resizing */
 @media (max-aspect-ratio: 11/10) {
@@ -184,5 +185,7 @@ main.home {
     display: none;
   }
 }
+=======
+>>>>>>> parent of 7c77ebc... Major Change 2
 =======
 >>>>>>> parent of 7c77ebc... Major Change 2

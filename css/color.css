@@ -23,6 +23,7 @@ main.home {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 header.me_html {
   background-color:#91A8D0;
 }
@@ -45,10 +46,13 @@ header.contact_html {
 
 =======
 >>>>>>> parent of 7c77ebc... Major Change 2
+=======
+>>>>>>> parent of 7c77ebc... Major Change 2
 .home.navigation_link:hover {
   background-color: white;
   color: black;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 .me_html.navigation_link:hover {
@@ -70,5 +74,7 @@ header.contact_html {
 .contact_html.navigation_link:hover {
   background-color: rgb(216, 174, 71);
 }
+=======
+>>>>>>> parent of 7c77ebc... Major Change 2
 =======
 >>>>>>> parent of 7c77ebc... Major Change 2
