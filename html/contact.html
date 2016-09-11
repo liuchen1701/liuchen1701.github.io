@@ -1,165 +1,81 @@
 <!DOCTYPE html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
 
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      https://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
 <html lang="en">
 
-<!-- The Head Section -->
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--meta name="description" content="A portfolio template that uses Material Design Lite."-->
+  <!--meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0"-->
+  <title>Contact Chen Liu</title>
+  <!--
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.grey-pink.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"></head>
+  -->
+  <link rel = "icon" type = "image/png" href = "images/Logo3-Invert.png" />
 
-  <!-- Define the Title of this webpage -->
-  <title>Chen Liu - Contact Info</title>
-
-  <!-- Define the favicon of this webpage -->
-  <link rel="icon" type="image/png" href="../resources/images/logo/icon_white-thin+black-round/favicon-16x16.png" />
-
-  <!-- link to the .css stylesheets files for this webpage -->
-  <link rel="stylesheet" type="text/css" href="../css/fonts.css">
-  <link rel="stylesheet" type="text/css" href="../css/color.css">
-  <link rel="stylesheet" type="text/css" href="../css/text.css">
-  <link rel="stylesheet" type="text/css" href="../css/image.css">
-  <meta name="viewport" content="height=device-height">
-  <meta name="viewport" content="width=device-width">
-
-  <!-- Temporarily hidding something -->
   <style>
-  .invisible {
+  .Invisible-Info {
     display: none;
   }
   </style>
 
-</head>
-
-
-<!-- The Body Section -->
-<body class="contact_html">
-
-  <!-- The Header element of this webpage -->
-  <header class="contact_html">
+<body>
+  <header>
+    <div class="Site-Title">
+    </div>
 
     <!-- Should have a button for changing language to Chinese -->
 
-    <!--
-      Description:
-        Define my logo and my name on the top bar of the page.
-        Can be used as link to Home Page (index.html).
-      Color:
-        White for dark scheme pages, and black for bright ones.
-        Defined by image src & as word color in color.css.
-      Size:
-        Defined in text.css.
-    -->
-    <a href="../index.html" class="contact_html logo_with_name">
-      <img src="../resources/images/logo/white.png" class="contact_html logo_on_header">
-
-      <!-- Font: Defined in fonts.css -->
-      <h2 class="contact_html name_on_header">CHEN LIU</h2>
-    </a>
-
-    <!--
-      Description:
-        Navigation links for directing to each sub-pages.
-      Color:
-        Defined as word color in color.css.
-      Size:
-        Defined in text.css.
-      Interaction:
-        On hover, the color reversed. Defined in color.css.
-    -->
-    <nav class="contact_html navigation">
-      <a class="contact_html navigation_link to_home" href="../index.html">
-        Home
-      </a>
-
-      <a class="contact_html navigation_link about_me" href="me.html">
-        About Me
-      </a>
-
-      <a class="contact_html navigation_link portfolio" href="portfolio.html">
-        Portfolio
-      </a>
-
-      <a class="contact_html navigation_link blog" href="blog.html">
-        Blog
-      </a>
-
-      <a class="contact_html navigation_link gallery" href="gallery.html">
-        Gallery
-      </a>
-
-      <a class="contact_html navigation_link contact" href="contact.html">
-        Contact
-      </a>
+    <nav class="Navigation">
+      <a class="Nav-Link" href="index.html">Home</a>
+      <a class="Nav-Link" href="index.html#About-Me">About Me</a>
+      <a class="Nav-Link" href="portfolio.html">Portfolio</a>
+      <a class="Nav-Link" href="blog.html">Personal Blog</a>
+      <a class="Nav-Link" href="gallery.html">Gallery</a>
+      <a class="Nav-Link" href="contact.html">Contact</a>
     </nav>
   </header>
 
-  <!-- The Main element of this webpage -->
-  <main class="contact_html">
-
-    <div class="contact_html description">
-      <!-- Description section for Contact Me -->
-      <section class="contact_html contact main_element description_section" id="Contact">
-
-        <!-- Title -->
-        <h2 class="contact_html contact description_section_element description_title">
-          Contact Me
-        </h2>
-
-        <!-- Main Body -->
-        <div class="contact_html contact description_section_element description_main_body">
-          <address class="home contact description_main_body_element">
-            Mailing Address: <br>5240 Fiore Terrace J106<br>San Diego, CA 92122, USA
-          </address>
-          <address class="contact_html contact invisible description_main_body_element">
-            <p class="contact_html contact china_contact">#2143, Building 304, Dong Hu Garden | 516002 | Huicheng District, Huizhou City, Guangdong Province, China</p>
-            <p class="contact_html contact emergency_contact">Personal Phone in the USA: +1-858-666-5391<br>Personal Phone in China: +86-13169116036<br>
-              <p>Emergency Contacter: <br>Mother: +86-13809663254 <br>Father: +86-13502297101 <br>Home in China: +86-751-2152233</p>
-            </p>
-          </address>
-        </div>
-
-        <!-- Should pop-out a window, or merge our text field right below these text -->
-      </section>
-    </div>
+  <main>
+    <article class="Contact-Section" id="Contact">
+      <h1 class="Section-Title">Contact Me</h1>
+      <address class="Contact-Campus">
+        Mailing Address: <br>5240 Fiore Terrace J106<br>San Diego, CA 92122, USA
+      </address>
+      <address class="Invisible-Info">
+        <p class="Contact-China">#2143, Building 304, Dong Hu Garden | 516002 | Huicheng District, Huizhou City, Guangdong Province, China</p>
+        <p class="Emergency-Contact">Personal Phone in the USA: +1-858-666-5391<br>Personal Phone in China: +86-13169116036<br>
+          <p>Emergency Contacter: <br>Mother: +86-13809663254 <br>Father: +86-13502297101 <br>Home in China: +86-751-2152233</p>
+        </p>
+      </address>
+      <a href="#"/>CONTACT</a>  <!-- Should pop-out a window, or merge our text field right below these text -->
+    </article>
   </main>
 
-  <!-- The Footer element of this page -->
-  <footer class="contact_html">
-
-    <!-- Copyright info of this whole site -->
-    <p class="contact_html copyright footer_element">
-      Copyright &copy; 2016 Chen Liu All Rights Reserved.
-    </p>
-
-    <ul class="contact_html footer_list footer_element">
-
-      <!--
-        Description:
-          Anchor link that is used to report bugs in any of this website
-          to me.
-        Interaction:
-          Should pop-out a window.
-      -->
-      <li class="contact_html report_bug footer_list_element">
-        <a href="#">Report a Bug</a>
-      </li>
-
-      <!--
-        Description:
-          Anchor link that is used to suggest any improvement about this
-          website to me.
-        Interaction:
-          Should pop-out a window.
-      -->
-      <li class="contact_html improvement footer_list_element">
-        <a href="#">Suggest for Improvement</a>
-      </li>
-
-      <!-- Contact me -->
-      <li class="contact_html contact footer_list_element">
-        <a href="contact.html">Contact Me</a>
-      </li>
-
+  <footer>
+    <ul class="Footer-List">
+      <li>Copyright &copy; 2016 Chen Liu All Rights Reserved.</li>
+      <li><a href="#">Report a Bug</a></li> <!-- Should pop-out a window -->
+      <li><a href="#">Suggest for Improvement</a></li>  <!-- Should pop-out a window -->
+      <li><a href="contact.html">Contact Me</a></li>  <!-- Should pop-out a window -->
       <!-- Should have a button for changing language to Chinese -->
     </ul>
   </footer>

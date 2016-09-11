@@ -1,169 +1,157 @@
 <!DOCTYPE html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
 
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      https://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
 <html lang="en">
 
-<!-- The Head Section -->
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--meta name="description" content="A portfolio template that uses Material Design Lite."-->
+  <!--meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0"-->
+  <title>Chen Liu's Home Page</title>
+  <!--
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.grey-pink.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"></head>
+  -->
 
-  <!-- Define the Title of this webpage -->
-  <title>Chen Liu - About Me</title>
+  <link rel = "icon" type = "image/png" href = "resources/images/logo/Logo3-Invert.png" />
+  <link rel = "stylesheet" type="text/css" href = "css/fonts.css">
+  <link rel = "stylesheet" type="text/css" href = "css/color.css">
+  <link rel = "stylesheet" type="text/css" href = "css/text.css">
+  <link rel = "stylesheet" type="text/css" href = "css/image.css">
 
-  <!-- Define the favicon of this webpage -->
-  <link rel="icon" type="image/png" href="../resources/images/logo/icon_white-thin+black-round/favicon-16x16.png" />
-
-  <!-- link to the .css stylesheets files for this webpage -->
-  <link rel="stylesheet" type="text/css" href="../css/fonts.css">
-  <link rel="stylesheet" type="text/css" href="../css/color.css">
-  <link rel="stylesheet" type="text/css" href="../css/text.css">
-  <link rel="stylesheet" type="text/css" href="../css/image.css">
-  <meta name="viewport" content="height=device-height">
-  <meta name="viewport" content="width=device-width">
-
-  <!-- Temporarily hidding something -->
   <style>
-  .invisible {
+  .Invisible-Info {
     display: none;
   }
   </style>
-
 </head>
 
+<body>
+  <!--
+  <header>
+    <div class="Site-Title">
+    </div>
 
-<!-- The Body Section -->
-<body class="me_html">
+    <! Should have a button for changing language to Chinese >
 
-  <!-- The Header element of this webpage -->
-  <header class="me_html">
-
-    <!-- Should have a button for changing language to Chinese -->
-
-    <!--
-      Description:
-        Define my logo and my name on the top bar of the page.
-        Can be used as link to Home Page (index.html).
-      Color:
-        White for dark scheme pages, and black for bright ones.
-        Defined by image src & as word color in color.css.
-      Size:
-        Defined in text.css.
-    -->
-    <a href="../index.html" class="me_html logo_with_name">
-      <img src="../resources/images/logo/white.png" class="me_html logo_on_header">
-
-      <!-- Font: Defined in fonts.css -->
-      <h2 class="me_html name_on_header">CHEN LIU</h2>
-    </a>
-
-    <!--
-      Description:
-        Navigation links for directing to each sub-pages.
-      Color:
-        Defined as word color in color.css.
-      Size:
-        Defined in text.css.
-      Interaction:
-        On hover, the color reversed. Defined in color.css.
-    -->
-    <nav class="me_html navigation">
-      <a class="me_html navigation_link to_home" href="../index.html">
-        Home
-      </a>
-
-      <a class="me_html navigation_link about_me" href="me.html">
-        About Me
-      </a>
-
-      <a class="me_html navigation_link portfolio" href="portfolio.html">
-        Portfolio
-      </a>
-
-      <a class="me_html navigation_link blog" href="blog.html">
-        Blog
-      </a>
-
-      <a class="me_html navigation_link gallery" href="gallery.html">
-        Gallery
-      </a>
-
-      <a class="me_html navigation_link contact" href="contact.html">
-        Contact
-      </a>
+    <nav class="Navigation">
+      <a class="Nav-Link" href="index.html">Home</a>
+      <a class="Nav-Link" href="index.html#About-Me">About Me</a>
+      <a class="Nav-Link" href="portfolio.html">Portfolio</a>
+      <a class="Nav-Link" href="blog.html">Personal Blog</a>
+      <a class="Nav-Link" href="gallery.html">Gallery</a>
+      <a class="Nav-Link" href="index.html#Contact">Contact</a>
     </nav>
   </header>
+  -->
 
-  <!-- The Main element of this webpage -->
-  <main class="me_html">
+  <main>
+    <section class="About-Section" id="About-Me">
+      <h2 class="Section-Title Description">About Me</h2>
+      <img class="Description" src="images\Avatar.png" width="5%"
+        alt="Profile Picture of Chen Liu" class="Avatar"/>
+      <div class="About AllText Description">
+        <p>I'm Chen Liu.</p>
+        <p>
+          At this point of my life, I am a 18-year-old Math-CS student of UCSD.
+          With an ambitious plan, I view myself as a future full-stack developer,
+          software engineer, and UX designer.
+        </p>
+        <p>
+          Before my college, I used to live in my hometown, Huizhou, for almost 18 years.
+          I have spent six-year life in Huizhou No.11 Primary School,
+          and another six-year life in Huizhou No.1 Middle School.
+        </p>
+      </div>
+      <a href="portfolio.html" class="Redirect-From-Home"/>Portfolio</a>
+      <!-- Should have expanded field for my hobbies -->
+    </section>
 
-    <div class="me_html description">
-      <!-- Description section for About Me -->
-      <section class="me_html about_me main_element description_section" id="About-Me">
+    <section class="Portfolio-Section" id="Portfolio">
+      <h2 class="Section-Title Description">My Porfolio</h2>
+      <div class="Portfolio AllText Description">
+        <p>
+          Coding Projects, UI/UX Designs, Applications, On-going Projects,
+          and Big Projects I have participated......
+        </p>
+        <p>
+          I aspire to change the world, and here, I will show you how.
+        </p>
+      </div>
+      <a href="portfolio.html" class="Redirect-From-Home"/>Portfolio</a>
+    </section>
 
-        <!-- Title -->
-        <h2 class="me_html about_me description_section_element description_title">
-          About Me
-        </h2>
+    <section class="Blog-Section" id="Blog">
+      <h2 class="Section-Title Description">My Personal Blog</h2>
+      <div class="Blog AllText Description">
+        <p>
+          The private palace for my very own spirit.
+        </p>
+        <p>
+          Most of the exhibits are in Chinese, as it is always my mother language.
+          If you decide to have a tour, please be peaceful but passionate,
+          critical but appreciative, and most importantly, insightful and open-minded.
+        </p>
+      </div>
+      <a href="blog.html" class="Redirect-From-Home"/>Explore</a>
+    </section>
 
-        <!-- Main Body -->
-        <div class="me_html about_me description_section_element description_main_body">
-          <p class="me_html about_me description_main_body_element">
-            I'm Chen Liu.
+    <section class="Gallery-Section" id="Gallery">
+      <h2 class="Section-Title Description">My Gallery</h2>
+      <!-- Should have a slideshow in the background -->
+      <div class="Gallery AllText Description">
+        <p>
+          Look at the world through my eyes, and my lens.
+        </p>
+        <p>
+          Come and experience every excited moment I have experienced,
+          visit every place I have visited, meet every person I have met,
+          and feel every emotion I have felt.
+        </p>
+      </div>
+      <a href="gallery.html" class="Redirect-From-Home"/>Browse More</a>
+    </section>
+
+    <section class="Contact-Section" id="Contact">
+      <h2 class="Section-Title Description">Contact Me</h2>
+      <div class="Contact AllText Description">
+        <address class="Contact-Campus">
+          Mailing Address: <br>5240 Fiore Terrace J106<br>San Diego, CA 92122, USA
+        </address>
+        <address class="Invisible-Info">
+          <p class="Contact-China">#2143, Building 304, Dong Hu Garden | 516002 | Huicheng District, Huizhou City, Guangdong Province, China</p>
+          <p class="Emergency-Contact">Personal Phone in the USA: +1-858-666-5391<br>Personal Phone in China: +86-13169116036<br>
+            <p>Emergency Contacter: <br>Mother: +86-13809663254 <br>Father: +86-13502297101 <br>Home in China: +86-751-2152233</p>
           </p>
-          <p class="me_html about_me description_main_body_element">
-            At this point of my life, I am a 18-year-old Computer Science undergraduate student of UCSD.
-            With an ambitious plan, I view myself as a future full-stack developer,
-            software engineer, and UX designer.
-          </p>
-          <p class="me_html about_me description_main_body_element">
-            Before my college, I used to live in my hometown, Huizhou, for almost 18 years.
-            I have spent six-year life in Huizhou No.11 Primary School,
-            and another six-year life in Huizhou No.1 Middle School.
-          </p>
-        </div>
-
-        <!-- Should have expanded field for my hobbies -->
-      </section>
-    </div>
+        </address>
+      </div>
+      <a href="contact.html"/>Contact Me</a>  <!-- Should pop-out a window, or merge our text field right below these text -->
+    </section>
   </main>
 
-  <!-- The Footer element of this page -->
-  <footer class="me_html">
-
-    <!-- Copyright info of this whole site -->
-    <p class="me_html copyright footer_element">
-      Copyright &copy; 2016 Chen Liu All Rights Reserved.
-    </p>
-
-    <ul class="me_html footer_list footer_element">
-
-      <!--
-        Description:
-          Anchor link that is used to report bugs in any of this website
-          to me.
-        Interaction:
-          Should pop-out a window.
-      -->
-      <li class="me_html report_bug footer_list_element">
-        <a href="#">Report a Bug</a>
-      </li>
-
-      <!--
-        Description:
-          Anchor link that is used to suggest any improvement about this
-          website to me.
-        Interaction:
-          Should pop-out a window.
-      -->
-      <li class="me_html improvement footer_list_element">
-        <a href="#">Suggest for Improvement</a>
-      </li>
-
-      <!-- Contact me -->
-      <li class="me_html contact footer_list_element">
-        <a href="contact.html">Contact Me</a>
-      </li>
-
+  <footer>
+    <ul class="Footer-List">
+      <li>Copyright &copy; 2016 Chen Liu All Rights Reserved.</li>
+      <li><a href="#">Report a Bug</a></li> <!-- Should pop-out a window -->
+      <li><a href="#">Suggest for Improvement</a></li>  <!-- Should pop-out a window -->
+      <li><a href="contact.html">Contact Me</a></li>  <!-- Should pop-out a window -->
       <!-- Should have a button for changing language to Chinese -->
     </ul>
   </footer>

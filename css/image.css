@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 
-header.home {
+header {
   display: block;
   background-image: url("../resources/images/profile/Portrait1.png");
   background-size: cover;
