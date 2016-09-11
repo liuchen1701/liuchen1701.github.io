@@ -12,7 +12,7 @@ header {
 
 /* Text in Main element */
 main {
-  min-height: 92.22vh;
+  min-height: 100vh;
 }
 
 /* Text in Footer element */
@@ -44,6 +44,12 @@ nav {
 header.home {
 }
 
+header:not(.home) {
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+}
+
 main.home {
   display: block;
   float: left;
@@ -55,6 +61,11 @@ main.home {
   text-overflow: ellipsis;
   display: none;
 }
+
+main:not(.home) {
+
+}
+
 /*
 .home.description {
   position: relative;
@@ -187,28 +198,28 @@ main.home {
 
 /* Deal with navigation bar issue when resizing */
 @media (max-aspect-ratio: 11/10) {
-  .me_html.logo_with_name, .portfolio_html.logo_with_name, .blog_html.logo_with_name, .gallery_html.logo_with_name, .contact_html.logo_with_name {
+  .logo_with_name:not(.home) {
     display: none;
   }
 
-  .me_html.navigation, .portfolio_html.navigation, .blog_html.navigation, .gallery_html.navigation, .contact_html.navigation {
+  .navigation:not(.home) {
     width: 100vw;
     left: 0;
     right: 0;
   }
 
-  .me_html.navigation_link, .portfolio_html.navigation_link, .blog_html.navigation_link, .gallery_html.navigation_link, .contact_html.navigation_link {
+  .navigation_link:not(.home) {
     width: 16vw;
   }
 }
 
 /* Deal with navigation bar issue when resizing */
 @media (max-aspect-ratio: 2/3) {
-  .me.logo_with_name, .portfolio_html.logo_with_name, .blog_html.logo_with_name, .gallery_html.logo_with_name, .contact_html.logo_with_name {
+  .logo_with_name:not(.home) {
     display: none;
   }
 
-  .me_html.navigation, .portfolio_html.navigation, .blog_html.navigation, .gallery_html.navigation, .contact_html.navigation {
+  .navigation:not(.home) {
     display: none;
   }
 }
