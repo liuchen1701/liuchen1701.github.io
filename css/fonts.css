@@ -95,10 +95,6 @@ footer {
 }
 
 nav {
-  font-family: NotoSansCJKsc-Bold;
-}
-
-nav.home {
   font-family: NotoSansCJKsc-Black;
   font-size: 6vh;
   font-weight: bolder;
@@ -108,7 +104,7 @@ nav.home {
 
 /* Define fonts based on classes */
 
-.name_on_header {
+.home.name_on_header {
   font-family: NotoSansCJKsc-Black;
   font-size: 4vh;
   font-weight: bolder;
@@ -122,35 +118,6 @@ nav.home {
 
 
 /* Define fonts under certain media query */
-
-/* When height smaller than 800 pixel, fix the footer's font size */
-@media (max-height: 800px) {
-  nav {
-    font-size: 2.25vh;
-  }
-
-  nav.home {
-    font-family: NotoSansCJKsc-Black;
-    font-size: 6vh;
-    font-weight: bolder;
-  }
-}
-
-/* When height greater than 1200 pixel, fix the footer's font size */
-@media (min-height: 1200px) {
-  nav {
-    font-size: 1.2vh;
-  }
-
-  nav.home {
-    font-family: NotoSansCJKsc-Black;
-    font-size: 6vh;
-    font-weight: bolder;
-  }
-}
-
-
-
 
 /* When height smaller than 600 pixel, fix the footer's font size */
 @media (max-height: 600px) {

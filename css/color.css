@@ -23,35 +23,37 @@ main.home {
 }
 
 <<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of db9e4af... Revert "Major Change 2"
 header.me_html {
-  background-color: rgb(146, 182, 213);
+  background-color:#91A8D0;
 }
 
-<<<<<<< HEAD
+header.portfolio_html {
+  background-color:#F7786B;
+}
+
+header.blog_html {
+  background-color:#79C753;
+}
+
+header.gallery_html {
+  background-color:#9896A4;
+}
+
+header.contact_html {
+  background-color:#FAE03C;
+}
+
 =======
 >>>>>>> parent of 7c77ebc... Major Change 2
-=======
->>>>>>> parent of 7c77ebc... Major Change 2
-=======
->>>>>>> parent of db9e4af... Revert "Major Change 2"
 .home.navigation_link:hover {
   background-color: white;
   color: black;
 }
 <<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of db9e4af... Revert "Major Change 2"
 
 .me_html.navigation_link:hover {
   background-color: rgb(76, 106, 146);
 }
-<<<<<<< HEAD
 
 .portfolio_html.navigation_link:hover {
   background-color: rgb(185, 58, 50);
@@ -68,12 +70,5 @@ header.me_html {
 .contact_html.navigation_link:hover {
   background-color: rgb(216, 174, 71);
 }
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 7c77ebc... Major Change 2
-=======
->>>>>>> parent of 7c77ebc... Major Change 2
-=======
->>>>>>> parent of db9e4af... Revert "Major Change 2"
-=======
->>>>>>> parent of 30a2a69... Added colorful header for each subpages
