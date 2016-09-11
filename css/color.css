@@ -22,7 +22,15 @@ main.home {
   background-color: transparent;
 }
 
+header.me_html {
+  background-color: rgb(146, 182, 213);
+}
+
 .home.navigation_link:hover {
   background-color: white;
   color: black;
+}
+
+.me_html.navigation_link:hover {
+  background-color: rgb(76, 106, 146);
 }
