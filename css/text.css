@@ -54,9 +54,8 @@ main.home {
   height: 100vh;
   overflow: hidden;
   text-overflow: ellipsis;
-  display: none;
 }
-/*
+
 .home.description {
   position: relative;
   width: 62vw;
@@ -83,7 +82,7 @@ main.home {
 .home.description_main_body_element {
   text-align: justify;
 }
-*/
+
 .logo_with_name{
   display: block;
   position: absolute;
