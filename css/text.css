@@ -222,4 +222,8 @@ main:not(.home) {
   .navigation:not(.home) {
     display: none;
   }
+
+  header:not(.home) {
+    display: none;
+  }
 }
