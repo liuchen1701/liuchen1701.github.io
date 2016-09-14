@@ -21,3 +21,11 @@ footer {
 
 a {
 }
+
+.social_media_icon {
+  height: 3vh;
+  width: 3vh;
+  max-height: 9.6vh;
+  max-width: 9.6vh;
+
+}

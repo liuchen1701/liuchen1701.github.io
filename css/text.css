@@ -164,10 +164,10 @@ main:not(.home) {
   padding: 0;
   display: inline-block;
   position: relative;
-  height: 100%;
 }
 
 .copyright {
+  position: absolute;
   margin: 4.05vh 0;
   line-height: 1.5vh;
   float: left;
@@ -186,14 +186,52 @@ main:not(.home) {
   margin: 1vh 1vw;
 }
 
+.social_media {
+  margin: 0;
+  float: left;
+  top: 4.8vh;
+  left: 3.618vw;
+  transform: translateY(-1.5vh);
+}
+
+ul.social_media li {
+  display: inline;
+  margin: 0 0.618vw;
+}
+
+a.social_media_link {
+  display: inline-block;
+}
+
 
 
 /* Define fonts under certain media query */
 
 /* Separate the footer elements to different lines when they collide */
 @media (max-aspect-ratio: 9/8) {
-  .footer_element {
-    clear: both;
+  .social_media {
+    position: absolute;
+    top: inherit;
+    margin: 9vh 0 0 0;
+    float: left;
+    left: 38vw;
+  }
+
+  .footer_list {
+    position: absolute;
+    top: inherit;
+    margin: 15vh 0 4.05vh 0;
+    float: left;
+    left: 37vw;
+  }
+
+  ul.footer_list li {
+    display: inline;
+  }
+
+  a.footer_list_element {
+    display: inline-block;
+    text-align: justify;
   }
 }
 
