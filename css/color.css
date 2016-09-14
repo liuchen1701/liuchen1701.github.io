@@ -69,3 +69,31 @@ header.contact_html {
 .contact_html.navigation_link:hover {
   background-color: rgb(173, 93, 93);
 }
+
+
+
+.home.navigation_link:focus {
+  background-color: white;
+  color: black;
+}
+
+
+.me_html.navigation_link:focus {
+  background-color: rgb(76, 106, 146);
+}
+
+.portfolio_html.navigation_link:focus {
+  background-color: rgb(185, 58, 50);
+}
+
+.blog_html.navigation_link:focus {
+  background-color: rgb(216, 174, 71);
+}
+
+.gallery_html.navigation_link:focus {
+  background-color: #716f7a;
+}
+
+.contact_html.navigation_link:focus {
+  background-color: rgb(173, 93, 93);
+}

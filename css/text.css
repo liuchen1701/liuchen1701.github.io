@@ -120,8 +120,9 @@ main:not(.home) {
   white-space:nowrap;
 }
 
-.me_html.navigation, .portfolio_html.navigation, .blog_html.navigation, .gallery_html.navigation, .contact_html.navigation {
+.navigation:not(.home) {
   position: relative;
+  top: 0;
   right: 9.12vw;
   height: 7.78vh;
 }
@@ -138,14 +139,14 @@ main:not(.home) {
   height: 62vh;
 }
 
-.me_html.navigation_link, .portfolio_html.navigation_link, .blog_html.navigation_link, .gallery_html.navigation_link, .contact_html.navigation_link {
+.navigation_link:not(.home) {
   display: inline-block;
   position: relative;
   margin: 0;
   min-width: 6.18vw;
   height: 100%;
   line-height: 7.78vh;
-  top: 3.89vh;
+  top: 50%;
   transform: translateY(-50%);
   text-align: center;
 }

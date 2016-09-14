@@ -120,6 +120,16 @@ nav.home {
 }
 
 
+.home.navigation_link:active {
+  font-size: 5.95vh;
+}
+
+
+.navigation_link:not(.home):active {
+  font-size: 1.4vh;
+}
+
+
 
 /* Define fonts under certain media query */
 
