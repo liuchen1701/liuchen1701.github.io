@@ -190,7 +190,7 @@ main:not(.home) {
   margin: 0;
   float: left;
   top: 4.8vh;
-  left: 3.618vw;
+  left: 9.12vw;
   transform: translateY(-1.5vh);
 }
 
@@ -214,7 +214,7 @@ a.social_media_link {
     top: inherit;
     margin: 9vh 0 0 0;
     float: left;
-    left: 38vw;
+    left: 37.382vw;
   }
 
   .footer_list {
@@ -226,11 +226,11 @@ a.social_media_link {
   }
 
   ul.footer_list li {
-    display: inline;
+    display: block;
   }
 
   a.footer_list_element {
-    display: inline-block;
+    display: inline;
     text-align: justify;
   }
 }
