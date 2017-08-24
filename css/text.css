@@ -44,10 +44,22 @@ nav {
 header.home {
 }
 
-header:not(.home) {
+header:not(.home .header) {
   position: fixed;
   width: 100%;
   z-index: 99;
+}
+
+header.portfolio {
+  display: block;
+  float: left;
+  position: absolute;
+  top: 0;
+  left: 0vw;
+  width: 38vw;
+  height: 100vh;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 main.home {
@@ -120,7 +132,40 @@ main:not(.home) {
   white-space:nowrap;
 }
 
-.navigation:not(.home) {
+.personal_intro {
+  float: left;
+  position: relative;
+  top: 19.1vh;
+  left: 7.3vw;
+  margin: 0;
+  padding: 0;
+  width: 23.6vw;
+  max-width: 38.2vw;
+  height: 61.8vh;
+}
+
+.personal_intro .title {
+  height: 23.6vh;
+  overflow: hidden;
+}
+
+.personal_intro .title .name {
+  display: inline-block;
+  margin: 0;
+}
+
+.personal_intro .title .logo {
+  position: relative;
+  display: inline-block;
+  float: right;
+  height: 10vh;
+}
+
+.personal_intro .body {
+  height: 38.2vh;
+}
+
+.navigation:not(.home .portfolio) {
   position: relative;
   top: 0;
   right: 9.12vw;
@@ -139,7 +184,19 @@ main:not(.home) {
   height: 62vh;
 }
 
-.navigation_link:not(.home) {
+.portfolio.navigation {
+  float: left;
+  position: relative;
+  top: 38vh;
+  margin: 0;
+  padding: 0;
+  width: 38vw;
+  min-width: 38vh;
+  max-width: 38vw;
+  height: 62vh;
+}
+
+.navigation_link:not(.home .portfolio) {
   display: inline-block;
   position: relative;
   margin: 0;
@@ -152,6 +209,14 @@ main:not(.home) {
 }
 
 .home.navigation_link {
+  display: block;
+  text-indent: 9.12vw;
+  height: 10vh;
+  white-space:nowrap;
+  visibility: visible !important;
+}
+
+.portfolio.navigation_link {
   display: block;
   text-indent: 9.12vw;
   height: 10vh;

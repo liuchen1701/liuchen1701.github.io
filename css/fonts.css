@@ -129,6 +129,10 @@ nav.home {
   font-size: 95%;
 }
 
+.personal_intro .title {
+  font-size: 3.25vh;
+}
+
 
 
 /* Define fonts under certain media query */
