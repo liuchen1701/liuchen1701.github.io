@@ -56,10 +56,14 @@ header.portfolio {
   position: absolute;
   top: 0;
   left: 0vw;
-  width: 38vw;
+  width: 38.2vw;
   height: 100vh;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+main.portfolio {
+
 }
 
 main.home {
@@ -132,7 +136,7 @@ main:not(.home) {
   white-space:nowrap;
 }
 
-.personal_intro {
+.portfolio.personal_intro {
   float: left;
   position: relative;
   top: 19.1vh;
@@ -144,25 +148,52 @@ main:not(.home) {
   height: 61.8vh;
 }
 
-.personal_intro .title {
+.portfolio.personal_intro .title {
   height: 23.6vh;
   overflow: hidden;
 }
 
-.personal_intro .title .name {
+.portfolio.personal_intro .title .name {
   display: inline-block;
   margin: 0;
 }
 
-.personal_intro .title .logo {
+.portfolio.personal_intro .title .logo {
   position: relative;
   display: inline-block;
   float: right;
-  height: 10vh;
+  height: 3.24em;
 }
 
-.personal_intro .body {
+.portfolio.personal_intro .body {
   height: 38.2vh;
+}
+
+.portfolio.showcase {
+  display: inline-block;
+  float: left;
+  position: absolute;
+  top: 19.1vh;
+  left: 50vw;
+  width: 38.2vw;
+  height: 80.9vh;
+  overflow: visible;
+}
+
+.portfolio.showcase .image {
+  display: inline-block;
+  float: left;
+  /*position: relative;*/
+  max-height: 61.8vh;
+  max-width: 19.1vw;
+}
+
+.portfolio.showcase .text {
+  display: inline-block;
+  float: right;
+  max-height: 80.9vh;
+  max-width: 14.6vw;
+  overflow: hidden;
 }
 
 .navigation:not(.home .portfolio) {

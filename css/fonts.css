@@ -129,8 +129,27 @@ nav.home {
   font-size: 95%;
 }
 
-.personal_intro .title {
-  font-size: 3.25vh;
+.portfolio.personal_intro .title {
+  font-size: 2em;
+}
+
+.portfolio.showcase .text .title {
+  font-family: NotoSansCJKsc-Black;
+  font-size: 2.5em;
+  margin-bottom: 0;
+}
+
+.portfolio.showcase .text .secondary_title {
+  font-family: NotoSansCJKsc-Medium;
+  font-size: 1.55em;
+  text-align: left;
+  margin-top: 0;
+}
+
+.portfolio.showcase .text .body {
+  font-family: NotoSansCJKsc-Medium;
+  font-size: 0.95em;
+  text-align: left;
 }
 
 
