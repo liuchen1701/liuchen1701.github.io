@@ -43,10 +43,10 @@
 
 
 <!-- The Body Section -->
-<body class="portfolio_html">
+<body class="portfolio">
 
   <!-- The Header element of this webpage -->
-  <header class="portfolio_html">
+  <header class="portfolio">
 
     <!-- Should have a button for changing language to Chinese -->
 
@@ -60,12 +60,14 @@
       Size:
         Defined in text.css.
     -->
-    <a href="../index.html" class="portfolio_html logo_with_name">
-      <img src="../resources/images/logo/white.png" class="portfolio_html logo_on_header">
+    <!-- <a href="../index.html" class="portfolio logo_with_name">
+      <img src="../resources/images/logo/white.png" class="portfolio logo_on_header"> -->
 
       <!-- Font: Defined in fonts.css -->
-      <h2 class="portfolio_html name_on_header">CHEN LIU</h2>
-    </a>
+      <!-- <h2 class="portfolio name_on_header">CHEN LIU</h2>
+    </a> -->
+
+
 
     <!--
       Description:
@@ -77,42 +79,114 @@
       Interaction:
         On hover, the color reversed. Defined in color.css.
     -->
-    <nav class="portfolio_html navigation">
-      <a class="portfolio_html navigation_link to_home" href="../index.html">
+    <!-- <nav class="portfolio navigation">
+      <a class="portfolio navigation_link to_home" href="../index.html">
         Home
       </a>
 
-      <a class="portfolio_html navigation_link about_me" href="me.html">
+      <a class="portfolio navigation_link about_me" href="me.html">
         About Me
       </a>
 
-      <a class="portfolio_html navigation_link portfolio" href="portfolio.html">
+      <a class="portfolio navigation_link portfolio" href="portfolio.html">
         Portfolio
       </a>
 
-      <a class="portfolio_html navigation_link blog" href="blog.html">
+      <a class="portfolio navigation_link blog" href="blog.html">
         Blog
       </a>
 
-      <a class="portfolio_html navigation_link gallery" href="gallery.html">
+      <a class="portfolio navigation_link gallery" href="gallery.html">
         Gallery
       </a>
 
-      <a class="portfolio_html navigation_link contact" href="contact.html">
+      <a class="portfolio navigation_link contact" href="contact.html">
         Contact
       </a>
-    </nav>
+    </nav> -->
+
+
+
+    <div class="portfolio personal_intro">
+      <div class="portfolio title">
+        <h1 class="portfolio name">Chen Liu&nbsp</h1>
+        <img src="../resources/images/logo/empty+white-round.png" class="portfolio logo">
+      </div>
+
+      <div class="portfolio body">
+        <p>
+          Hi, this is Chen Liu.
+        </p>
+        <p>
+          I am a junior student at UCSD majoring Computer Science with a Design Minor, and I view myself as a software engineer, UI/UX designer, VR content creator, and web developer.
+        </p>
+        <p>
+          I love technology, and I aspire to change the world. To begin with, I determined to gain experience by doing projects ranging from native mobile apps and web apps, to UI/UX prototypes and VR apps/games.
+        </p>
+        <p>
+          Here, tracing my footprints one after another, you shall see the future I am heading to.
+        </p>
+        <p>
+          Enjoy!
+        </p>
+      </div>
+
+      <div class="portfolio links">
+        <a href="../resources/documents/Chen_Liu_Resume2.pdf">RESUME</a>
+      </div>
+
+
+    </div>
+
+
+
+
+
   </header>
 
   <!-- The Main element of this webpage -->
-  <main class="portfolio_html">
+  <main class="portfolio main" id="main">
 
-    <div class="portfolio_html description">
+
+    <div class="portfolio showcase">
+      <img src="../resources/images/portfolio/fashionopia_webapp/App_Wireframe.png" class="portfolio image">
+      <div class="portfolio text">
+        <h2 class="portfolio title">FASHIONOPIA</h2>
+        <h3 class="portfolio secondary_title">A Mobile WebApp for Clothes Management</h3>
+        <div class="portfolio body">
+          <p>With 10 weeks' design and implementation, we went through comprehensive design processes including needfinding, prototyping, heuristic evaluation, user testing, and design tuning, and eventually came to a complete and fully interactive front-end prototype that can effectively represent our idea.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio showcase">
+      <img src="../resources/images/portfolio/fashionopia_webapp/App_Wireframe.png" class="portfolio image">
+      <div class="portfolio text">
+        <h2 class="portfolio title">COGS187A PROJECT</h2>
+        <h3 class="portfolio secondary_title">A High-Fidelity Prototype for a Crowdsourcing Decision Maker App</h3>
+        <div class="portfolio body">
+          <p>This is the description. This is the description. This is the description. This is the description. This is the description. This is the description. This is the description. This is the description. This is the description.</p>
+        </div>
+      </div>
+    </div>
+
+    <a class="portfolio showcase_prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="portfolio showcase_next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="portfolio showcase_dots">
+      <span class="portfolio dot" onclick="currentSlide(0)"></span>
+      <span class="portfolio dot" onclick="currentSlide(1)"></span>
+    </div>
+
+
+
+
+    <!-- <div class="portfolio description"> -->
       <!-- Description section for Portfolio -->
-      <section class="portfolio_html portfolio main_element description_section" id="Portfolio">
+      <!-- <section class="portfolio portfolio main_element description_section" id="Portfolio"> -->
 
 
-        <div class="me_html about_me description_section_element">
+        <!-- <div class="me_html about_me description_section_element">
           <h2 class="me_html about_me description_section_element">
             This page is under construction.
           </h2>
@@ -120,44 +194,44 @@
           <h2 class="me_html about_me description_section_element">
             ===========================
           </h2>
-          
+
           <h2 class="me_html about_me description_section_element">
             WebApp Link: http://fashionopia.herokuapp.com/
           </h2>
-          
+
           <h2 class="me_html about_me description_section_element">
             WebApp Project Github Link: https://github.com/XavierXinweiWang/cogs120project
           </h2>
-          
+
           <p>This project is a prototype of a Mobile WebApp that keeps track of users' clothes and their daily outfits. Functionalities like a solid database and recommending system is going to be implemented.</p>
-          
+
           <h2 class="me_html about_me description_section_element">
             ===========================
           </h2>
-        </div>
+        </div> -->
 
         <!-- Title -->
-        <h2 class="portfolio_html portfolio description_section_element description_title">
+        <!-- <h2 class="portfolio portfolio description_section_element description_title">
           My Porfolio
-        </h2>
+        </h2> -->
 
         <!-- Main Body -->
-        <div class="portfolio_html portfolio description_section_element description_main_body">
-          <p class="portfolio_html portfolio description_main_body_element">
+        <!-- <div class="portfolio portfolio description_section_element description_main_body">
+          <p class="portfolio portfolio description_main_body_element">
             Coding Projects, UI/UX Designs, Applications, On-going Projects,
             and Big Projects I have participated......
           </p>
-          <p class="portfolio_html portfolio description_main_body_element">
+          <p class="portfolio portfolio description_main_body_element">
             I aspire to change the world, and here, I will show you how.
           </p>
-        </div>
+        </div> -->
 
-      </section>
-    </div>
+      <!-- </section>
+    </div> -->
   </main>
 
   <!-- The Footer element of this page -->
-  <footer class="portfolio_html">
+  <footer class="portfolio">
 
     <!--
       Description:
@@ -168,53 +242,53 @@
       Size:
         Defined in text.css.
     -->
-    <ul class="home footer_element social_media">
+    <ul class="portfolio footer_element social_media">
       <!-- Douban -->
       <li>
-        <a href="https://www.douban.com/people/liuchen3254/" class="home social_media_link">
-          <img src="../resources/images/icon/douban_white.png" class="home social_media_icon">
+        <a href="https://www.douban.com/people/liuchen3254/" class="portfolio social_media_link">
+          <img src="../resources/images/icon/douban_white.png" class="portfolio social_media_icon">
         </a>
       </li>
 
       <!-- Facebook -->
       <li>
-        <a href="https://www.facebook.com/liu.chen.3576224" class="home social_media_link">
-          <img src="../resources/images/icon/facebook_white.png" class="home social_media_icon">
+        <a href="https://www.facebook.com/liu.chen.3576224" class="portfolio social_media_link">
+          <img src="../resources/images/icon/facebook_white.png" class="portfolio social_media_icon">
         </a>
       </li>
 
       <!-- Google Plus -->
       <li>
-        <a href="https://plus.google.com/107802363715489538237" class="home social_media_link">
-          <img src="../resources/images/icon/google-plus_white.png" class="home social_media_icon">
+        <a href="https://plus.google.com/107802363715489538237" class="portfolio social_media_link">
+          <img src="../resources/images/icon/google-plus_white.png" class="portfolio social_media_icon">
         </a>
       </li>
 
       <!-- Instagram -->
       <li>
-        <a href="https://www.instagram.com/liuchen1701/" class="home social_media_link">
-          <img src="../resources/images/icon/instagram_white.png" class="home social_media_icon">
+        <a href="https://www.instagram.com/liuchen1701/" class="portfolio social_media_link">
+          <img src="../resources/images/icon/instagram_white.png" class="portfolio social_media_icon">
         </a>
       </li>
 
       <!-- LinkedIn -->
       <li>
-        <a href="https://www.linkedin.com/in/chen-liu-1828b162" class="home social_media_link">
-          <img src="../resources/images/icon/linkedin_white.png" class="home social_media_icon">
+        <a href="https://www.linkedin.com/in/chen-liu-1828b162" class="portfolio social_media_link">
+          <img src="../resources/images/icon/linkedin_white.png" class="portfolio social_media_icon">
         </a>
       </li>
 
       <!-- WeChat -->
       <li>
-        <a href="#" class="home social_media_link">
-          <img src="../resources/images/icon/wechat_white.png" class="home social_media_icon">
+        <a href="#" class="portfolio social_media_link">
+          <img src="../resources/images/icon/wechat_white.png" class="portfolio social_media_icon">
         </a>
       </li>
 
       <!-- Zhihu -->
       <li>
-        <a href="https://www.zhihu.com/people/LiuChen" class="home social_media_link">
-          <img src="../resources/images/icon/zhihu_white.png" class="home social_media_icon">
+        <a href="https://www.zhihu.com/people/LiuChen" class="portfolio social_media_link">
+          <img src="../resources/images/icon/zhihu_white.png" class="portfolio social_media_icon">
         </a>
       </li>
     </ul>
@@ -222,11 +296,11 @@
 
 
     <!-- Copyright info of this whole site -->
-    <p class="portfolio_html copyright footer_element">
+    <p class="portfolio copyright footer_element">
       Copyright &copy; 2016 Chen Liu All Rights Reserved.
     </p>
 
-    <ul class="portfolio_html footer_list footer_element">
+    <ul class="portfolio footer_list footer_element">
 
       <!--
         Description:
@@ -235,7 +309,7 @@
         Interaction:
           Should pop-out a window.
       -->
-      <li class="portfolio_html report_bug footer_list_element">
+      <li class="portfolio report_bug footer_list_element">
         <a href="#">Report a Bug</a>
       </li>
 
@@ -246,18 +320,20 @@
         Interaction:
           Should pop-out a window.
       -->
-      <li class="portfolio_html improvement footer_list_element">
+      <li class="portfolio improvement footer_list_element">
         <a href="#">Suggest for Improvement</a>
       </li>
 
       <!-- Contact me -->
-      <li class="portfolio_html contact footer_list_element">
+      <li class="portfolio contact footer_list_element">
         <a href="contact.html">Contact Me</a>
       </li>
 
       <!-- Should have a button for changing language to Chinese -->
     </ul>
   </footer>
+
+  <script src="../js/portfolio.js"></script>
 </body>
 
 </html>
