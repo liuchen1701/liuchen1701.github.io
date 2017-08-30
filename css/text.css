@@ -196,6 +196,53 @@ main:not(.home) {
   overflow: hidden;
 }
 
+.portfolio.showcase_prev, .portfolio.showcase_next {
+  cursor: pointer;
+  position: absolute;
+  width: auto;
+  padding: 0.618vw;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  /*border-radius: 0 3px 3px 0;*/
+  transform: rotate(90deg);
+  right: 28.5vw;
+}
+
+.portfolio.showcase_prev {
+  top: 0;
+}
+
+.portfolio.showcase_next {
+  bottom: 0;
+}
+
+ .portfolio.showcase_prev:hover, .portfolio.showcase_next:hover {
+   color: #263238;
+ }
+
+.portfolio.showcase_dots {
+  position: absolute;
+  right: 0;
+  top: 50vh;
+}
+
+.portfolio.dot {
+  cursor:pointer;
+  height: 0.618vh;
+  width: 0.618vh;
+  margin: 0.618vh;
+  background-color: white;
+  border-radius: 50%;
+  display: block;
+  transition: background-color 0.6s ease;
+}
+
+.portfolio.active, .portfolio.dot:hover {
+  background-color: #263238;
+}
+
 .navigation:not(.home .portfolio) {
   position: relative;
   top: 0;
