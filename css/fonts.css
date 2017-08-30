@@ -152,6 +152,10 @@ nav.home {
   text-align: left;
 }
 
+.portfolio.personal_intro .links a:hover {
+  font-family: NotoSansCJKsc-Black;
+}
+
 
 
 /* Define fonts under certain media query */

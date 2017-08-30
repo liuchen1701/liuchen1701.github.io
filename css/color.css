@@ -67,6 +67,36 @@ header.contact_html {
   background-color: rgb(185, 58, 50);
 }
 
+
+
+.portfolio.personal_intro .links {
+  border-color: white;
+}
+
+.portfolio.personal_intro .links a:hover {
+  color: #263238;
+  background-color: white;
+}
+
+
+
+.portfolio.showcase_prev, .portfolio.showcase_next {
+  color: white;
+}
+
+.portfolio.showcase_prev:hover, .portfolio.showcase_next:hover {
+  color: #263238;
+}
+
+.portfolio.dot {
+  background-color: white;
+}
+
+.portfolio.active, .portfolio.dot:hover {
+  background-color: #263238;
+}
+
+
 .blog_html.navigation_link:hover {
   background-color: rgb(216, 174, 71);
 }
