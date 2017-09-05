@@ -201,7 +201,29 @@ main:not(.home) {
   overflow: visible;
 }
 
-.portfolio.showcase .image {
+.portfolio.showcase.aha .image {
+  display: block;
+  max-width: 38.2vw;
+  max-height: 61.8vh;
+}
+
+.portfolio.showcase.aha .text {
+  position: relative;
+  left: -11.8vw;
+  margin-top: 6.18vh;
+  display: block;
+  width: 60vw;
+  overflow: hidden;
+}
+
+.portfolio.showcase.aha .text .title {
+  text-align: center;
+  opacity: 87%;
+  width: 61.8%;
+  padding-left: 19.1%;
+}
+
+.portfolio.showcase.fashionopia .image {
   display: inline-block;
   float: left;
   /*position: relative;*/
@@ -209,7 +231,7 @@ main:not(.home) {
   max-width: 19.1vw;
 }
 
-.portfolio.showcase .text {
+.portfolio.showcase.fashionopia .text {
   display: inline-block;
   float: right;
   max-height: 80.9vh;

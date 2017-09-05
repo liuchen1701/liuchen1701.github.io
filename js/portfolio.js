@@ -1,7 +1,7 @@
 var i;
 var slides = document.getElementsByClassName("portfolio showcase");
 var dots = document.getElementsByClassName("dot");
-var main_colors = ["#FF4081", "#FFEB3B"];
+var main_colors = ["#FF4081", "#64ffda"];
 var main_colorthemes = ["white", "black"];
 var slideIndex = 0;
 showSlides(slideIndex);
