@@ -2,7 +2,7 @@
  * Font faces for each font family with different weight
  */
 
-@font-face {
+/*@font-face {
   font-family: NotoSansCJKsc-Black;
   src: url('../resources/fonts/NotoSansCJKsc-Black.otf') format("opentype");
 }
@@ -70,7 +70,7 @@
 @font-face {
   font-family: NotoSansCJKtc-Thin;
   src: url('../resources/fonts/NotoSansCJKtc-Thin.otf') format("opentype");
-}
+}*/
 
 
 
@@ -78,28 +78,31 @@
 
 body {
   /*background-color: black;*/
-  font-family: NotoSansCJKsc-Regular;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 header {
-  font-family: NotoSansCJKsc-Bold;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
 }
 
 main {
-  font-family: NotoSansCJKsc-Regular;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 footer {
-  font-family: NotoSansCJKsc-Light;
+  font-family: 'Noto Sans', sans-serif;
   font-size: 82.5%;
 }
 
 nav {
-  font-family: NotoSansCJKsc-Bold;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
 }
 
 nav.home {
-  font-family: NotoSansCJKsc-Black;
+  font-family: 'Noto Sans', sans-serif;
+  /*font-weight: bold;*/
   font-size: 6vh;
   font-weight: bolder;
 }
@@ -109,13 +112,13 @@ nav.home {
 /* Define fonts based on classes */
 
 .name_on_header {
-  font-family: NotoSansCJKsc-Black;
+  font-family: 'Noto Sans', sans-serif;
   font-size: 4vh;
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 .copyright {
-  font-family: NotoSansCJKsc-Thin;
+  font-family: 'Noto Sans', sans-serif;
   font-size: 1.5vh;
 }
 
@@ -130,30 +133,32 @@ nav.home {
 }
 
 .portfolio.personal_intro .title {
-  font-size: 2em;
+  font-size: 2.36em;
 }
 
 .portfolio.showcase .text .title {
-  font-family: NotoSansCJKsc-Black;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
   font-size: 2.5em;
   margin-bottom: 0;
 }
 
 .portfolio.showcase .text .secondary_title {
-  font-family: NotoSansCJKsc-Medium;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
   font-size: 1.55em;
   text-align: left;
   margin-top: 0;
 }
 
 .portfolio.showcase .text .body {
-  font-family: NotoSansCJKsc-Medium;
+  font-family: 'Noto Sans', sans-serif;
   font-size: 0.95em;
   text-align: left;
 }
 
 .portfolio.personal_intro .links a:hover {
-  font-family: NotoSansCJKsc-Black;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 
@@ -167,7 +172,7 @@ nav.home {
   }
 
   nav.home {
-    font-family: NotoSansCJKsc-Black;
+    font-family: 'Noto Sans', sans-serif;
     font-size: 6vh;
     font-weight: bolder;
   }
@@ -180,7 +185,7 @@ nav.home {
   }
 
   nav.home {
-    font-family: NotoSansCJKsc-Black;
+    font-family: 'Noto Sans', sans-serif;
     font-size: 6vh;
     font-weight: bolder;
   }
@@ -192,12 +197,12 @@ nav.home {
 /* When height smaller than 600 pixel, fix the footer's font size */
 @media (max-height: 600px) {
   footer {
-    font-family: NotoSansCJKsc-Light;
+    font-family: 'Noto Sans', sans-serif;
     font-size: 2.4vh;
   }
 
   .copyright {
-    font-family: NotoSansCJKsc-Thin;
+    font-family: 'Noto Sans', sans-serif;
     font-size: 1.5vh;
   }
 }
@@ -205,12 +210,12 @@ nav.home {
 /* When height greater than 1200 pixel, fix the footer's font size */
 @media (min-height: 1200px) {
   footer {
-    font-family: NotoSansCJKsc-Light;
+    font-family: 'Noto Sans', sans-serif;
     font-size: 1.2vh;
   }
 
   .copyright {
-    font-family: NotoSansCJKsc-Thin;
+    font-family: 'Noto Sans', sans-serif;
     font-size: 1.5vh;
   }
 }
