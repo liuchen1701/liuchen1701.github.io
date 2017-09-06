@@ -7,7 +7,7 @@ body {
 
 /* Text in Header element */
 header {
-  min-height: 7.78vh;
+  min-height: 6.18vh;
 }
 
 /* Text in Main element */
@@ -224,6 +224,16 @@ main:not(.home) {
   padding-left: 19.1%;
 }
 
+.portfolio.showcase.aha .project_link {
+  display: inline-block;
+  float: right;
+  position: fixed;
+  top: 0vh;
+  left: 38.2vw;
+  width: 61.8vw;
+  height: 100vh;
+}
+
 .portfolio.showcase.fashionopia .image {
   display: inline-block;
   float: left;
@@ -277,7 +287,44 @@ main:not(.home) {
   transition: background-color 0.6s ease;
 }
 
-.navigation:not(.home .portfolio) {
+
+
+
+header.aha {
+  height: 6.18vh;
+}
+
+header.aha .logo {
+  height: 3.82vh;
+  margin-top: 1.18vh;
+  margin-bottom: 1.18vh;
+  margin-left: 6.18vw;
+}
+
+header.aha .navigation {
+  height: 3.82vh;
+  margin-top: 1.18vh;
+  margin-bottom: 1.18vh;
+  margin-right: 6.18vw;
+}
+
+header.aha .navigation .link {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 3.09vw;
+  padding-top: 0.618vh;
+}
+
+
+
+
+
+
+
+
+
+
+.navigation:not(.home .portfolio .aha) {
   position: relative;
   top: 0;
   right: 9.12vw;
@@ -308,7 +355,7 @@ main:not(.home) {
   height: 62vh;
 }
 
-.navigation_link:not(.home .portfolio) {
+.navigation_link:not(.home .portfolio .aha) {
   display: inline-block;
   position: relative;
   margin: 0;
@@ -413,7 +460,7 @@ a.social_media_link {
 }
 
 /* Deal with navigation bar issue when resizing */
-@media (max-aspect-ratio: 11/10) {
+/*@media (max-aspect-ratio: 11/10) {
   .logo_with_name:not(.home) {
     display: none;
   }
@@ -427,10 +474,10 @@ a.social_media_link {
   .navigation_link:not(.home) {
     width: 16vw;
   }
-}
+}*/
 
 /* Deal with navigation bar issue when resizing */
-@media (max-aspect-ratio: 2/3) {
+/*@media (max-aspect-ratio: 2/3) {
   .logo_with_name:not(.home) {
     display: none;
   }
@@ -442,4 +489,4 @@ a.social_media_link {
   header:not(.home) {
     display: none;
   }
-}
+}*/
