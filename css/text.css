@@ -224,7 +224,7 @@ main:not(.home) {
   padding-left: 19.1%;
 }
 
-.portfolio.showcase.aha .project_link {
+.portfolio.showcase .project_link {
   display: inline-block;
   float: right;
   position: fixed;
@@ -389,6 +389,15 @@ header.aha .navigation .link {
   transform: rotate(90deg);
   left: 48.764vw;
   bottom: 0;
+}
+
+.aha.body {
+  padding-top: 6.18vh;
+  padding-bottom: 6.18vh;
+  width: 61.8vw;
+  display: block;
+  margin: auto;
+  min-height: 38.2vh;
 }
 
 
