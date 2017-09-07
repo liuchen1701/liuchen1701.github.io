@@ -161,6 +161,17 @@ nav.home {
   font-family: 'Noto Sans', sans-serif;
 }
 
+.aha.main .header .description {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+}
+
+.aha.header .link {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  /*font-size: 1.55em;*/
+}
+
 
 
 /* Define fonts under certain media query */

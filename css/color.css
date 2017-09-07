@@ -40,6 +40,10 @@ header.portfolio {
   background-color:#263238;
 }
 
+header.aha {
+  background-color:#009688;
+}
+
 header.blog_html {
   background-color:#B18F6A;
 }
@@ -99,6 +103,27 @@ header.contact_html {
 .portfolio.active, .portfolio.dot:hover {
   background-color: #263238;
 }
+
+
+
+
+.aha.main .header {
+  background-color: #009688;
+}
+
+.aha.main .header .description {
+  color: white;
+}
+
+.aha.header .link {
+  border-color: white;
+}
+
+.aha.header .link a:hover {
+  color: #009688;
+  background-color: white;
+}
+
 
 
 .blog_html.navigation_link:hover {
