@@ -224,7 +224,7 @@ main:not(.home) {
   padding-left: 19.1%;
 }
 
-.portfolio.showcase.aha .project_link {
+.portfolio.showcase .project_link {
   display: inline-block;
   float: right;
   position: fixed;
