@@ -391,6 +391,15 @@ header.aha .navigation .link {
   bottom: 0;
 }
 
+.aha.body {
+  padding-top: 6.18vh;
+  padding-bottom: 6.18vh;
+  width: 61.8vw;
+  display: block;
+  margin: auto;
+  min-height: 38.2vh;
+}
+
 
 
 
