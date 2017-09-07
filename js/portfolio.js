@@ -4,7 +4,14 @@ var dots = document.getElementsByClassName("dot");
 var main_colors = ["#E91E63", "#009688"];
 var main_colorthemes = ["white", "white"];
 var slideIndex = 1;
-showSlides(slideIndex);
+// showSlides(slideIndex);
+loopSlides();
+
+function loopSlides() {
+  showSlides(slideIndex);
+  slideIndex++;
+  setTimeout(loopSlides, 5000);
+}
 
 function plusSlides(n) {
   showSlides(slideIndex += n);
@@ -27,4 +34,7 @@ function showSlides(n) {
   slides[slideIndex].style.display = "inline-block";
   document.getElementById("main").style.backgroundColor = main_colors[slideIndex];
   document.getElementById("main").style.color = main_colorthemes[slideIndex];
+
+
+
 }
