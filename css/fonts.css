@@ -133,27 +133,31 @@ nav.home {
 }
 
 .portfolio.personal_intro .title {
-  font-size: 2.36em;
+  font-size: 3vh;
+}
+
+.portfolio.personal_intro .body, .portfolio.personal_intro .links {
+  font-size: 1.5vh;
 }
 
 .portfolio.showcase .text .title {
   font-family: 'Noto Sans', sans-serif;
   font-weight: bold;
-  font-size: 2.5em;
+  font-size: 3vh;
   margin-bottom: 0;
 }
 
 .portfolio.showcase .text .secondary_title {
   font-family: 'Noto Sans', sans-serif;
   font-weight: bold;
-  font-size: 1.55em;
+  font-size: 2vh;
   text-align: left;
   margin-top: 0;
 }
 
 .portfolio.showcase .text .body {
   font-family: 'Noto Sans', sans-serif;
-  font-size: 0.95em;
+  font-size: 1.5vh;
   text-align: left;
 }
 
@@ -164,12 +168,13 @@ nav.home {
 .aha.main .header .description {
   font-family: 'Noto Sans', sans-serif;
   font-weight: bold;
+  font-size: 1.5vh;
 }
 
 .aha.header .link {
   font-family: 'Noto Sans', sans-serif;
   font-weight: bold;
-  /*font-size: 1.55em;*/
+  font-size: 1.5vh;
 }
 
 
