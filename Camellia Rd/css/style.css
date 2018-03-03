@@ -1,0 +1,357 @@
+/* stylesheet for Camellia Rd's website.*/
+/* the following values are the corresponding screen sizes:
+/* xs: <	576px
+/* sm: >=	576px
+/* md: >=	768px
+/* lg: >=	992px
+/* xl: >=	1200px
+
+/**********************************************************************/
+/* google fonts
+/**********************************************************************/
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+/**********************************************************************/
+/* setting variables
+/**********************************************************************/
+:root {
+	--primary-color: #ffffff;
+	--secondary-color: #cbcbcb;
+	--base-color: #91672F;
+	--highlight-color: #88B04B;
+	--text-dark: #434343;
+	--text-light: #bdbdbd;
+}
+
+/**********************************************************************/
+/* fonts for our use (cut out fonts we don't use later to cut down on load time)
+/**********************************************************************/
+@font-face {
+	font-family: "brix-sans-light";
+	src: url("../fonts/Brix Sans/HVD Fonts - BrixSansLight.otf") format("opentype");
+}
+
+/**********************************************************************/
+/* generic styling for general html tags
+/**********************************************************************/
+body, html {
+	width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+h1 {
+	font-family: 'brix-sans-light';
+	font-weight: bold;
+}
+
+section {
+	padding: 50px 0;
+}
+
+/* figure out a better system than important */
+a.live-page {
+	font-weight: bold;
+	color: var(--highlight-color) !important;
+}
+
+.bg-primary {
+	background-color: var(--primary-color) !important;
+}
+
+.bg-secondary {
+	background-color: var(--secondary-color) !important;
+}
+
+.text-soft {
+	color: var(--text-light);
+}
+
+/**********************************************************************/
+/* for centered divs
+/**********************************************************************/
+.center-wrapper {
+	top: 50%;
+	left: 50%;
+	margin: 0 auto;
+	position: absolute;
+	transform: translate(-50%, -50%);
+}
+
+
+/**********************************************************************/
+/* styling for whenever we use the logo
+/**********************************************************************/
+#logo img {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  margin-top: 5px;
+  margin-left: -76px;
+}
+
+/**********************************************************************/
+/* styling for the navbar
+/**********************************************************************/
+.navbar {
+  background: var(--primary-color);
+  box-shadow: 0px 5px 30px #505151;
+}
+
+.nav-item a {
+	color: var(--text-dark);
+}
+
+.nav-item {
+  margin-right: 40px;
+}
+
+.nav-space {
+  margin-right: 225px;
+}
+
+.nav-space2 {
+  margin-right: 100px;
+}
+
+/**********************************************************************/
+/* styling for the masthead (landing pictures)
+/**********************************************************************/
+header.masthead {
+  position: relative;
+	width: 100%;
+  min-height: 600px;
+	margin-bottom: -10px;
+  text-align: center;
+	display: inline-block;
+  color: white;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header.masthead .header-content {
+	position: relative;
+	width: 100%;
+	min-height: inherit;
+	padding: 75px 30px 25px;
+	text-align: center;
+}
+
+header.masthead img {
+	width: 320px;
+	height: 100px;
+}
+
+#landing-about {
+  background-image: url("../img/landing-default.jpeg");
+}
+
+/* Header masthead styling for window width more than 768px */
+@media (min-width: 768px) {
+	header.masthead {
+		height: 100%;
+		min-height: 600px;
+	}
+
+	header.masthead .header-content {
+		position: absolute;
+		top: 48%;
+		padding: 0 50px;
+		-webkit-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+	}
+
+	header.masthead img {
+		width: 640px;
+		height: 200px;
+	}
+}
+
+/**********************************************************************/
+/* styling for info cards (formatting image and text content)
+/**********************************************************************/
+.info-secondary, .info-primary {
+	text-align: center;
+}
+
+.gallery {
+	left: 50%;
+	max-width: 720px;
+	height: auto;
+	position: relative;
+	transform: translate(-50%);
+}
+
+.gallery img {
+	width: 100%;
+}
+
+@media (min-width: 768px) {
+	/* text is on the left, images on the right */
+	div.info-primary {
+		text-align: left;
+	}
+
+	/* text is on the right, images on the left */
+	div.info-secondary {
+		text-align: right;
+	}
+}
+
+/**********************************************************************/
+/* menu styling, and other pages
+/**********************************************************************/
+#menu, #press, #services, #merchandise, #careers { 
+	/* padding for all pages */
+	margin-top: 56px;
+	text-align: center;
+}
+
+.menu-item {
+	text-align: left;
+	color: var(--text-dark);
+}
+
+.menu-cat {
+	padding-top: 20px;
+}
+
+.menu-cat:hover {
+	background-color: var(--secondary-color);
+	cursor: pointer;
+}
+
+@media (min-width: 576px) {
+	.menu-cat .col-sm {
+		column-count: 2;
+	}
+}
+
+/**********************************************************************/
+/* styling for press page
+/**********************************************************************/
+.press-logo {
+/*	margin: 30px 0 30px 0;*/
+	padding: 30px;
+}
+
+.press-logo:hover {
+	background-color: var(--secondary-color);
+}
+
+/**********************************************************************/
+/* styling for services page
+/**********************************************************************/
+#dd-logo {
+	max-width: 200px;
+}
+
+.service-card {
+	text-align: center;
+}
+
+.service-card div {
+	padding-top: 10px;
+}
+
+@media (min-width: 768px) {
+	.service-text {
+		text-align: left;
+	}
+}
+
+/**********************************************************************/
+/* styling for merchandise page
+/**********************************************************************/
+#gift-card {
+	max-width: 360px;
+}
+
+/**********************************************************************/
+/* styling for forms
+/**********************************************************************/
+.forms {
+	margin-top: 30px;
+}
+
+iframe {
+	height: 700px;
+	max-width: 760px;
+	min-width: 90%;
+}
+
+/**********************************************************************/
+/* styling for instagram feed
+/**********************************************************************/
+
+#ig-feed {
+	text-align: center;
+	overflow: hidden;
+}
+
+.ig-title {
+	margin-bottom: 20px;
+}
+
+#instafeed img { 
+	margin: 5px;
+	width: 15%;
+}
+
+@media (max-width: 768px) {
+	#instafeed img {
+		width: 19%;
+	}
+}
+
+/**********************************************************************/
+/* styling for footer
+/**********************************************************************/
+footer {
+	width: 100%;
+	background: var(--primary-color);
+	color: var(--text-dark);
+	border-top: 1px solid var(--text-light);
+}
+
+.footer-content {
+	font-size: 15px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.footer-content.social-media {
+  text-align: center;
+}
+
+.fa-map-marker {
+	color: #ff0000;
+	font-size: 30px;
+}
+
+.fa-map-marker:hover {
+	cursor: pointer;
+}
+
+.social-media-icon {
+	font-size: 30px;
+	width: 30px;
+	color: var(--text-dark);
+}
+
+.social-media-icon:hover {
+	color: var(--highlight-color);
+}
+
+#cp-text {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 5px;
+}
