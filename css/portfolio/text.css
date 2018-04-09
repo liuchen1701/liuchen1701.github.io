@@ -1,0 +1,187 @@
+header.portfolio {
+  display: block;
+  float: left;
+  position: absolute;
+  top: 0;
+  left: 0vw;
+  width: 38.2vw;
+  height: 100vh;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+main.portfolio {
+  transition: 0.6s ease;
+}
+
+.portfolio.personal_intro {
+  float: left;
+  position: relative;
+  top: 19.1vh;
+  left: 7.3vw;
+  margin: 0;
+  padding: 0;
+  width: 23.6vw;
+  max-width: 38.2vw;
+  height: 61.8vh;
+}
+
+.portfolio.personal_intro .title {
+  height: 23.6vh;
+  overflow: hidden;
+}
+
+.portfolio.personal_intro .title .name {
+  display: inline-block;
+  margin: 0;
+}
+
+.portfolio.personal_intro .title .logo {
+  position: relative;
+  display: inline-block;
+  float: right;
+  height: 2.36em;
+  top: 0.236em;
+}
+
+.portfolio.personal_intro .body {
+  height: 38.2vh;
+}
+
+.portfolio.personal_intro .links {
+  position: relative;
+  border-style: solid;
+  border-width: medium;
+  height: 6.18vh;
+  width: 6.18vw;
+  left: 8.71vw;
+  top: 6.18vh;
+  transition: 0.6s ease;
+}
+
+.portfolio.personal_intro .links a {
+  display: block;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: 4.27vh; /* 6.18 - 1.91 */
+  padding-top: 2vh;
+  transition: 0.6s ease;
+}
+
+.portfolio.showcase {
+  display: inline-block;
+  float: left;
+  position: absolute;
+  top: 19.1vh;
+  left: 50vw;
+  width: 38.2vw;
+  height: 80.9vh;
+  overflow: visible;
+}
+
+.portfolio.showcase.aha .image {
+  display: block;
+  max-width: 38.2vw;
+  max-height: 61.8vh;
+}
+
+.portfolio.showcase.aha .text {
+  position: relative;
+  left: -11.8vw;
+  margin-top: 6.18vh;
+  display: block;
+  width: 60vw;
+  overflow: hidden;
+}
+
+.portfolio.showcase.aha .text .title {
+  text-align: center;
+  opacity: 87%;
+  width: 61.8%;
+  padding-left: 19.1%;
+}
+
+.portfolio.showcase .project_link {
+  display: inline-block;
+  float: right;
+  position: fixed;
+  top: 0vh;
+  left: 38.2vw;
+  width: 61.8vw;
+  height: 100vh;
+}
+
+.portfolio.showcase.fashionopia .image {
+  display: inline-block;
+  float: left;
+  /*position: relative;*/
+  max-height: 61.8vh;
+  max-width: 19.1vw;
+}
+
+.portfolio.showcase.fashionopia .text {
+  display: inline-block;
+  float: right;
+  max-height: 80.9vh;
+  max-width: 14.6vw;
+  overflow: hidden;
+}
+
+.portfolio.showcase_prev, .portfolio.showcase_next {
+  cursor: pointer;
+  position: absolute;
+  width: auto;
+  padding: 0.618vw;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  /*border-radius: 0 3px 3px 0;*/
+  transform: rotate(90deg);
+  right: 28.5vw;
+}
+
+.portfolio.showcase_prev {
+  top: 0;
+}
+
+.portfolio.showcase_next {
+  bottom: 0;
+}
+
+.portfolio.showcase_dots {
+  position: absolute;
+  right: 0;
+  top: 50vh;
+}
+
+.portfolio.dot {
+  cursor:pointer;
+  height: 0.618vh;
+  width: 0.618vh;
+  margin: 0.618vh;
+  border-radius: 50%;
+  display: block;
+  transition: background-color 0.6s ease;
+}
+
+.portfolio.navigation {
+  float: left;
+  position: relative;
+  top: 38vh;
+  margin: 0;
+  padding: 0;
+  width: 38vw;
+  min-width: 38vh;
+  max-width: 38vw;
+  height: 62vh;
+}
+
+.portfolio.navigation_link {
+  display: block;
+  text-indent: 9.12vw;
+  height: 10vh;
+  white-space:nowrap;
+  visibility: visible !important;
+}
+

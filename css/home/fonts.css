@@ -1,0 +1,27 @@
+nav.home {
+  font-family: 'Noto Sans', sans-serif;
+  /*font-weight: bold;*/
+  font-size: 6vh;
+  font-weight: bolder;
+}
+
+.home.navigation_link:active {
+  font-size: 99%;
+}
+
+@media (max-height: 800px) {
+  nav.home {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 6vh;
+    font-weight: bolder;
+  }
+}
+
+/* When height greater than 1200 pixel, fix the footer's font size */
+@media (min-height: 1200px) {
+  nav.home {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 6vh;
+    font-weight: bolder;
+  }
+}

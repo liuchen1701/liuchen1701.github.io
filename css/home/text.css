@@ -1,0 +1,57 @@
+main.home {
+  display: block;
+  float: left;
+  position: absolute;
+  top: 0;
+  left: 38vw;
+  height: 100vh;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: none;
+}
+
+.home.navigation {
+  float: left;
+  position: relative;
+  top: 38vh;
+  margin: 0;
+  padding: 0;
+  width: 38vw;
+  min-width: 38vh;
+  max-width: 38vw;
+  height: 62vh;
+}
+
+.home.navigation_link {
+  display: block;
+  text-indent: 9.12vw;
+  height: 10vh;
+  white-space:nowrap;
+  visibility: visible !important;
+}
+
+.logo_with_name{
+  display: block;
+  position: absolute;
+  height: 6.18vh;
+  padding: 0.8vh 0.16vw;
+  overflow: visible;
+  left: 9.12vw;
+}
+
+.logo_on_header {
+  float: left;
+  height: 100%;
+  overflow: hidden;
+  left: 24%;
+}
+
+.name_on_header {
+  float: left;
+  overflow: hidden;
+  height: 100%;
+  margin: 0;
+  padding: 0 1.6vw;
+  overflow: hidden;
+  white-space:nowrap;
+}

@@ -1,0 +1,13 @@
+main.home {
+  background-color: transparent;
+}
+
+.home.navigation_link:hover {
+  background-color: white;
+  color: black;
+}
+
+.home.navigation_link:focus {
+  background-color: white;
+  color: black;
+}

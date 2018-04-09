@@ -1,0 +1,21 @@
+.aha.main .header {
+  background-color: #009688;
+}
+
+.aha.main .header .description {
+  color: white;
+}
+
+.aha.header .link {
+  border-color: white;
+}
+
+.aha.header .link a:hover {
+  color: #009688;
+  background-color: white;
+}
+
+  
+header.aha {
+  background-color:#009688;
+}

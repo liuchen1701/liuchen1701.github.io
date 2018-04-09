@@ -1,0 +1,32 @@
+.portfolio.personal_intro .title {
+  font-size: 3vh;
+}
+
+.portfolio.personal_intro .body, .portfolio.personal_intro .links {
+  font-size: 1.5vh;
+}
+
+.portfolio.showcase .text .title {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  font-size: 3vh;
+  margin-bottom: 0;
+}
+
+.portfolio.showcase .text .secondary_title {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  font-size: 2vh;
+  text-align: left;
+  margin-top: 0;
+}
+
+.portfolio.showcase .text .body {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.5vh;
+  text-align: left;
+}
+
+.portfolio.personal_intro .links a:hover {
+  font-family: 'Noto Sans', sans-serif;
+}

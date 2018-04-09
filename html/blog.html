@@ -29,8 +29,19 @@
   <link rel="stylesheet" type="text/css" href="../css/color.css">
   <link rel="stylesheet" type="text/css" href="../css/text.css">
   <link rel="stylesheet" type="text/css" href="../css/image.css">
+  <link rel="stylesheet" type="text/css" href="../css/footer.css">
+
+  <link rel="stylesheet" type="text/css" href="../css/blog/fonts.css">
+  <link rel="stylesheet" type="text/css" href="../css/blog/color.css">
+  <link rel="stylesheet" type="text/css" href="../css/blog/text.css">
+  <link rel="stylesheet" type="text/css" href="../css/blog/image.css">
+
   <meta name="viewport" content="height=device-height">
   <meta name="viewport" content="width=device-width">
+
+  <!-- link to the web font -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans:bold,regular" rel="stylesheet">
 
   <!-- Temporarily hidding something -->
   <style>
@@ -43,107 +54,20 @@
 
 
 <!-- The Body Section -->
-<body class="blog_html">
+<body class="blog">
 
   <!-- The Header element of this webpage -->
-  <header class="blog_html">
+  <header class="blog">
 
-    <!-- Should have a button for changing language to Chinese -->
-
-    <!--
-      Description:
-        Define my logo and my name on the top bar of the page.
-        Can be used as link to Home Page (index.html).
-      Color:
-        White for dark scheme pages, and black for bright ones.
-        Defined by image src & as word color in color.css.
-      Size:
-        Defined in text.css.
-    -->
-    <a href="../index.html" class="blog_html logo_with_name">
-      <img src="../resources/images/logo/white.png" class="blog_html logo_on_header">
-
-      <!-- Font: Defined in fonts.css -->
-      <h2 class="blog_html name_on_header">CHEN LIU</h2>
-    </a>
-
-    <!--
-      Description:
-        Navigation links for directing to each sub-pages.
-      Color:
-        Defined as word color in color.css.
-      Size:
-        Defined in text.css.
-      Interaction:
-        On hover, the color reversed. Defined in color.css.
-    -->
-    <nav class="blog_html navigation">
-      <a class="blog_html navigation_link to_home" href="../index.html">
-        Home
-      </a>
-
-      <a class="blog_html navigation_link about_me" href="me.html">
-        About Me
-      </a>
-
-      <a class="blog_html navigation_link portfolio" href="portfolio.html">
-        Portfolio
-      </a>
-
-      <a class="blog_html navigation_link blog" href="blog.html">
-        Blog
-      </a>
-
-      <a class="blog_html navigation_link gallery" href="gallery.html">
-        Gallery
-      </a>
-
-      <a class="blog_html navigation_link contact" href="contact.html">
-        Contact
-      </a>
-    </nav>
   </header>
 
   <!-- The Main element of this webpage -->
-  <main class="blog_html">
+  <main class="blog">
 
-    <div class="blog_html description">
-      <!-- Description section for My Blog -->
-      <section class="blog_html blog main_element description_section" id="Blog">
-
-        <div class="me_html about_me description_section_element">
-          <h2 class="me_html about_me description_section_element">
-            This page is under construction.
-          </h2>
-
-          <h2 class="me_html about_me description_section_element">
-            ===========================
-          </h2>
-        </div>
-
-        <!-- Title -->
-        <h2 class="blog_html blog description_section_element description_title">
-          My Personal Blog
-        </h2>
-
-        <!-- Main Body -->
-        <div class="blog_html blog description_section_element description_main_body">
-          <p class="blog_html blog description_main_body_element">
-            The private palace for my very own spirit.
-          </p>
-          <p class="blog_html blog description_main_body_element">
-            Most of the exhibits are in Chinese, as it is always my mother language.
-            If you decide to have a tour, please be peaceful but passionate,
-            critical but appreciative, and most importantly, insightful and open-minded.
-          </p>
-        </div>
-
-      </section>
-    </div>
   </main>
 
   <!-- The Footer element of this page -->
-  <footer class="blog_html">
+  <footer class="blog">
 
     <!--
       Description:
@@ -154,64 +78,64 @@
       Size:
         Defined in text.css.
     -->
-    <ul class="home footer_element social_media">
+    <ul class="blog footer_element social_media">
       <!-- Douban -->
       <li>
-        <a href="https://www.douban.com/people/liuchen3254/" class="home social_media_link">
-          <img src="../resources/images/icon/douban_white.png" class="home social_media_icon">
+        <a href="https://www.douban.com/people/liuchen3254/" class="blog social_media_link">
+          <img src="../resources/images/icon/douban_white.png" class="blog social_media_icon">
         </a>
       </li>
 
       <!-- Facebook -->
       <li>
-        <a href="https://www.facebook.com/liu.chen.3576224" class="home social_media_link">
-          <img src="../resources/images/icon/facebook_white.png" class="home social_media_icon">
+        <a href="https://www.facebook.com/liu.chen.3576224" class="blog social_media_link">
+          <img src="../resources/images/icon/facebook_white.png" class="blog social_media_icon">
         </a>
       </li>
 
       <!-- Google Plus -->
       <li>
-        <a href="https://plus.google.com/107802363715489538237" class="home social_media_link">
-          <img src="../resources/images/icon/google-plus_white.png" class="home social_media_icon">
+        <a href="https://plus.google.com/107802363715489538237" class="blog social_media_link">
+          <img src="../resources/images/icon/google-plus_white.png" class="blog social_media_icon">
         </a>
       </li>
 
       <!-- Instagram -->
       <li>
-        <a href="https://www.instagram.com/liuchen1701/" class="home social_media_link">
-          <img src="../resources/images/icon/instagram_white.png" class="home social_media_icon">
+        <a href="https://www.instagram.com/liuchen1701/" class="blog social_media_link">
+          <img src="../resources/images/icon/instagram_white.png" class="blog social_media_icon">
         </a>
       </li>
 
       <!-- LinkedIn -->
       <li>
-        <a href="https://www.linkedin.com/in/chen-liu-1828b162" class="home social_media_link">
-          <img src="../resources/images/icon/linkedin_white.png" class="home social_media_icon">
+        <a href="https://www.linkedin.com/in/chen-liu-1828b162" class="blog social_media_link">
+          <img src="../resources/images/icon/linkedin_white.png" class="blog social_media_icon">
         </a>
       </li>
 
       <!-- WeChat -->
       <li>
-        <a href="#" class="home social_media_link">
-          <img src="../resources/images/icon/wechat_white.png" class="home social_media_icon">
+        <a href="#" class="blog social_media_link">
+          <img src="../resources/images/icon/wechat_white.png" class="blog social_media_icon">
         </a>
       </li>
 
       <!-- Zhihu -->
       <li>
-        <a href="https://www.zhihu.com/people/LiuChen" class="home social_media_link">
-          <img src="../resources/images/icon/zhihu_white.png" class="home social_media_icon">
+        <a href="https://www.zhihu.com/people/LiuChen" class="blog social_media_link">
+          <img src="../resources/images/icon/zhihu_white.png" class="blog social_media_icon">
         </a>
       </li>
     </ul>
 
 
     <!-- Copyright info of this whole site -->
-    <p class="blog_html copyright footer_element">
+    <p class="blog copyright footer_element">
       Copyright &copy; 2016 Chen Liu All Rights Reserved.
     </p>
 
-    <ul class="blog_html footer_list footer_element">
+    <ul class="blog footer_list footer_element">
 
       <!--
         Description:
@@ -220,7 +144,7 @@
         Interaction:
           Should pop-out a window.
       -->
-      <li class="blog_html report_bug footer_list_element">
+      <li class="blog report_bug footer_list_element">
         <a href="#">Report a Bug</a>
       </li>
 
@@ -231,12 +155,12 @@
         Interaction:
           Should pop-out a window.
       -->
-      <li class="blog_html improvement footer_list_element">
+      <li class="blog improvement footer_list_element">
         <a href="#">Suggest for Improvement</a>
       </li>
 
       <!-- Contact me -->
-      <li class="blog_html contact footer_list_element">
+      <li class="blog contact footer_list_element">
         <a href="contact.html">Contact Me</a>
       </li>
 

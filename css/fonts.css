@@ -1,79 +1,3 @@
-/*
- * Font faces for each font family with different weight
- */
-
-/*@font-face {
-  font-family: NotoSansCJKsc-Black;
-  src: url('../resources/fonts/NotoSansCJKsc-Black.otf') format("opentype");
-}
-
-@font-face {
-  font-family: NotoSansCJKsc-Bold;
-  src: url('../resources/fonts/NotoSansCJKsc-Bold.otf') format("opentype");
-}
-
-@font-face {
-  font-family: NotoSansCJKsc-Demilight;
-  src: url('../resources/fonts/NotoSansCJKsc-Demilight.otf') format("opentype");
-}
-
-@font-face {
-  font-family: NotoSansCJKsc-Light;
-  src: url('../resources/fonts/NotoSansCJKsc-Light.otf') format("opentype");
-}
-
-@font-face {
-  font-family: NotoSansCJKsc-Medium;
-  src: url('../resources/fonts/NotoSansCJKsc-Medium.otf') format("opentype");
-}
-
-@font-face {
-  font-family: NotoSansCJKsc-Regular;
-  src: url('../resources/fonts/NotoSansCJKsc-Regular.otf') format("opentype");
-}
-
-@font-face {
-  font-family: NotoSansCJKsc-Thin;
-  src: url('../resources/fonts/NotoSansCJKsc-Thin.otf') format("opentype");
-}
-
-@font-face {
-  font-family: NotoSansCJKtc-Black;
-  src: url('../resources/fonts/NotoSansCJKtc-Black.otf') format("opentype");
-}
-
-@font-face {
-  font-family: NotoSansCJKtc-Bold;
-  src: url('../resources/fonts/NotoSansCJKtc-Bold.otf') format("opentype");
-}
-
-@font-face {
-  font-family: NotoSansCJKtc-Demilight;
-  src: url('../resources/fonts/NotoSansCJKtc-Demilight.otf') format("opentype");
-}
-
-@font-face {
-  font-family: NotoSansCJKtc-Light;
-  src: url('../resources/fonts/NotoSansCJKtc-Light.otf') format("opentype");
-}
-
-@font-face {
-  font-family: NotoSansCJKtc-Medium;
-  src: url('../resources/fonts/NotoSansCJKtc-Medium.otf') format("opentype");
-}
-
-@font-face {
-  font-family: NotoSansCJKtc-Regular;
-  src: url('../resources/fonts/NotoSansCJKtc-Regular.otf') format("opentype");
-}
-
-@font-face {
-  font-family: NotoSansCJKtc-Thin;
-  src: url('../resources/fonts/NotoSansCJKtc-Thin.otf') format("opentype");
-}*/
-
-
-
 /* Defind fonts based on sections */
 
 body {
@@ -90,22 +14,12 @@ main {
   font-family: 'Noto Sans', sans-serif;
 }
 
-footer {
-  font-family: 'Noto Sans', sans-serif;
-  font-size: 82.5%;
-}
-
 nav {
   font-family: 'Noto Sans', sans-serif;
   font-weight: bold;
 }
 
-nav.home {
-  font-family: 'Noto Sans', sans-serif;
-  /*font-weight: bold;*/
-  font-size: 6vh;
-  font-weight: bolder;
-}
+
 
 
 
@@ -117,67 +31,9 @@ nav.home {
   font-weight: bold;
 }
 
-.copyright {
-  font-family: 'Noto Sans', sans-serif;
-  font-size: 1.5vh;
-}
-
-
-.home.navigation_link:active {
-  font-size: 99%;
-}
-
-
 .navigation_link:not(.home):active {
   font-size: 95%;
 }
-
-.portfolio.personal_intro .title {
-  font-size: 3vh;
-}
-
-.portfolio.personal_intro .body, .portfolio.personal_intro .links {
-  font-size: 1.5vh;
-}
-
-.portfolio.showcase .text .title {
-  font-family: 'Noto Sans', sans-serif;
-  font-weight: bold;
-  font-size: 3vh;
-  margin-bottom: 0;
-}
-
-.portfolio.showcase .text .secondary_title {
-  font-family: 'Noto Sans', sans-serif;
-  font-weight: bold;
-  font-size: 2vh;
-  text-align: left;
-  margin-top: 0;
-}
-
-.portfolio.showcase .text .body {
-  font-family: 'Noto Sans', sans-serif;
-  font-size: 1.5vh;
-  text-align: left;
-}
-
-.portfolio.personal_intro .links a:hover {
-  font-family: 'Noto Sans', sans-serif;
-}
-
-.aha.main .header .description {
-  font-family: 'Noto Sans', sans-serif;
-  font-weight: bold;
-  font-size: 1.5vh;
-}
-
-.aha.header .link {
-  font-family: 'Noto Sans', sans-serif;
-  font-weight: bold;
-  font-size: 1.5vh;
-}
-
-
 
 /* Define fonts under certain media query */
 
@@ -186,52 +42,11 @@ nav.home {
   nav {
     font-size: 2.25vh;
   }
-
-  nav.home {
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 6vh;
-    font-weight: bolder;
-  }
 }
 
 /* When height greater than 1200 pixel, fix the footer's font size */
 @media (min-height: 1200px) {
   nav {
     font-size: 1.2vh;
-  }
-
-  nav.home {
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 6vh;
-    font-weight: bolder;
-  }
-}
-
-
-
-
-/* When height smaller than 600 pixel, fix the footer's font size */
-@media (max-height: 600px) {
-  footer {
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 2.4vh;
-  }
-
-  .copyright {
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 1.5vh;
-  }
-}
-
-/* When height greater than 1200 pixel, fix the footer's font size */
-@media (min-height: 1200px) {
-  footer {
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 1.2vh;
-  }
-
-  .copyright {
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 1.5vh;
   }
 }
