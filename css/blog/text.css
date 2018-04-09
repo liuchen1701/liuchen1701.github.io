@@ -1,0 +1,19 @@
+header {
+    position: fixed;
+    height: 6.18vh;
+    width: 100%;
+}
+
+header .navigation {
+    height: 3.82vh;
+    margin-top: 1.18vh;
+    margin-bottom: 1.18vh;
+    margin-right: 6.18vw;
+}
+
+header .navigation .link {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 3.09vw;
+  margin-top: 0.618vh;
+}
