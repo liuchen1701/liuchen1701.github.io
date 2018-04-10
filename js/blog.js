@@ -19,7 +19,7 @@ function loadArticle(item, index) {
     var main_content = createContent(item);
     article_content.appendChild(main_content);
     entry.appendChild(article_content);
-    
+
     document.getElementsByTagName("main")[0].appendChild(entry);
 }
 
@@ -82,11 +82,11 @@ function createContent(item) {
 
     if(item.src.includes(".html")) {
         text = request.responseText;
-   } else {
+    } else {
         text = request.responseText.replace(new RegExp('\n', 'g'), '<br>');
     }
 
     ret.innerHTML = text;
-    
+
     return ret;
 }
