@@ -25,3 +25,7 @@ header .navigation .link {
     padding-top: 6.18vh;
     padding-bottom: 6.18vh;
 }
+
+.main_content {
+    text-align: left;
+}

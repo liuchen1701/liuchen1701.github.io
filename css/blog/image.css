@@ -4,3 +4,7 @@ header .logo {
   margin-bottom: 1.18vh;
   margin-left: 6.18vw;
 }
+
+.main_content img{
+  max-width: 100%;
+}
