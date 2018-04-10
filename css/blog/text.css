@@ -17,3 +17,11 @@ header .navigation .link {
   margin-left: 3.09vw;
   margin-top: 0.618vh;
 }
+
+.entry {
+    width: 61.8vw;
+    margin: auto;
+    display: block;
+    padding-top: 6.18vh;
+    padding-bottom: 6.18vh;
+}
