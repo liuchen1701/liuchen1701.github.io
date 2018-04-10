@@ -1,40 +1,71 @@
-var request = new XMLHttpRequest();
+let request = new XMLHttpRequest();
 request.open('GET', '../json/blog.json', false);
 request.send(null);
-var blog_data = JSON.parse(request.responseText);
+let blog_data = JSON.parse(request.responseText);
 
-blog_data.forEach(loadArticle);
+blog_data.forEach(loadHeader);
 
-function loadArticle(item, index) {
-    var entry = createDiv("entry");
+function loadHeader(item, index) {
+    let entry = createDiv("entry");
+    entry.setAttribute("id", "entry" + index);
 
-    var article_header = createDiv("article_header");
-    var title = createTitle(item);
+    let article_header = createDiv("article_header");
+    article_header.setAttribute("id", "article" + index);
+
+    // Used for making header clickable
+    let clickable = document.createElement("a");
+    clickable.setAttribute("class", "clickable");
+    clickable.setAttribute("href", "#entry" + index);
+    article_header.appendChild(clickable);
+
+    let title = createTitle(item);
     article_header.appendChild(title);
-    var info = createInfo(item);
+
+    let info = createInfo(item);
     article_header.appendChild(info);
+
     entry.appendChild(article_header);
 
-    var article_content = createDiv("article_content");
-    var main_content = createContent(item);
-    article_content.appendChild(main_content);
-    entry.appendChild(article_content);
+    article_header.onclick = function() {
+        if(this.parentElement.childElementCount <= 1) {
+            loadContent(item, index);
+        }
+
+        let entryList = document.getElementsByClassName("entry");
+
+        for(let i = 0; i < entryList.length; i++) {
+            if(i !== index && entryList[i].childElementCount > 1) {
+                entryList[i].lastElementChild.classList.remove("show");
+            }
+        }
+
+        if(this.parentElement.childElementCount > 1) {
+            this.parentElement.lastElementChild.classList.toggle("show");
+        }
+    };
 
     document.getElementsByTagName("main")[0].appendChild(entry);
 }
 
+function loadContent(item, index) {
+    let article_content = createDiv("article_content");
+    let main_content = createContent(item);
+    article_content.appendChild(main_content);
+    document.getElementsByClassName("entry")[index].appendChild(article_content);
+}
+
 function createDiv(classValue) {
-    var ret = document.createElement("DIV");
+    let ret = document.createElement("DIV");
     ret.setAttribute("class", classValue);
     return ret;
 }
 
 function createTitle(item) {
-    var ret = document.createElement("h2");
+    let ret = document.createElement("h2");
     ret.setAttribute("class", "title");
 
     if(item.title === "") {
-        var filename = item.src.replace(/^.*[\\\/]/, '');
+        let filename = item.src.replace(/^.*[\\\/]/, '');
         ret.innerText = filename.substring(0, filename.indexOf('.'));
     } else {
         ret.innerText = item.title;
@@ -44,7 +75,7 @@ function createTitle(item) {
 }
 
 function createInfo(item) {
-    var ret = document.createElement("h6");
+    let ret = document.createElement("h6");
     ret.setAttribute("class", "info");
 
     if(item.author === "") {
@@ -71,14 +102,14 @@ function createInfo(item) {
 }
 
 function createContent(item) {
-    var ret = document.createElement("p");
+    let ret = document.createElement("p");
     ret.setAttribute("class", "main_content");
 
-    var request = new XMLHttpRequest();
+    let request = new XMLHttpRequest();
     request.open('GET', item.src, false);
     request.send(null);
 
-    var text;
+    let text;
 
     if(item.src.includes(".html")) {
         text = request.responseText;
