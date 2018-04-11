@@ -8,8 +8,11 @@ header a {
     opacity: 0.87;
 }
 
-main .main_content {
+main {
     color: black;
+}
+
+main .main_content {
     opacity: 0.87;
 }
 
