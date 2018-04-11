@@ -28,6 +28,7 @@ header .navigation .link {
 
 .entry {
     text-align: left;
+    word-break: break-all;
 }
 
 .article_header {
@@ -47,4 +48,10 @@ header .navigation .link {
 
 .article_content.show {
     display: block;
+}
+
+@media only screen and (max-aspect-ratio: 1/1) {
+    .entry {
+        width: 61.8vw;
+    }
 }
