@@ -12,6 +12,10 @@ main {
     color: black;
 }
 
+main a {
+    color: black;
+}
+
 main .main_content {
     opacity: 0.87;
 }
