@@ -20,6 +20,18 @@ main a {
     color: black;
 }
 
+.in_page_nav i {
+    opacity: 0.54;
+}
+
+.in_page_nav i:hover {
+    opacity: 0.87;
+}
+
+.in_page_nav .caption {
+    opacity: 0.54;
+}
+
 main .main_content {
     opacity: 0.87;
 }

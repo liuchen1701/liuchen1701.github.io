@@ -42,6 +42,7 @@
     <!-- link to the web font -->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans:bold,regular" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!-- Temporarily hidding something -->
     <style>
@@ -70,6 +71,21 @@
 
 <!-- The Main element of this webpage -->
 <main class="blog">
+
+    <div class="blog in_page_nav">
+        <a href="#" id="to_article_header" onmouseenter="showCaption(this)" onmouseleave="hideCaption(this)" class="in_page_nav_button">
+            <span class="caption">
+                To Header of Opening Article
+            </span>
+            <i class="material-icons">expand_less</i>
+        </a>
+        <a href="#" id="to_top" onmouseenter="showCaption(this)" onmouseleave="hideCaption(this)" class="in_page_nav_button">
+            <span class="caption">
+                To Top of Page
+            </span>
+            <i class="material-icons">first_page</i>
+        </a>
+    </div>
 
 </main>
 

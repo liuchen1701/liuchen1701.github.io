@@ -42,6 +42,8 @@ function loadHeader(item, index) {
         if(this.parentElement.childElementCount > 1) {
             this.parentElement.parentElement.lastElementChild.classList.toggle("show");
         }
+
+        document.getElementById("to_article_header").setAttribute("href", "#entry" + index);
     };
 
     document.getElementsByTagName("main")[0].appendChild(entry);
@@ -120,4 +122,13 @@ function createContent(item) {
     ret.innerHTML = text;
 
     return ret;
+}
+
+
+function showCaption(elem) {
+    elem.firstElementChild.classList.add("show");
+}
+
+function hideCaption(elem) {
+    elem.firstElementChild.classList.remove("show");
 }

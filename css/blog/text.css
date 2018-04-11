@@ -18,6 +18,45 @@ header .navigation .link {
   margin-top: 0.618vh;
 }
 
+.in_page_nav {
+    position: fixed;
+    display: inline-block;
+    float: right;
+    right: 0;
+    bottom: 0;
+    margin-right: 6.18vw;
+    margin-bottom: 13.82vh;
+}
+
+.in_page_nav a {
+    display: block;
+    text-align: right;
+    /*height: 3.82vh;*/
+    /*vertical-align: middle;*/
+    padding: 0.618vh;
+}
+
+.in_page_nav .caption {
+    display: none;
+    position: relative;
+    bottom: 8px;
+    margin-right: 0.618vw;
+}
+
+@media only screen and (min-aspect-ratio: 1/1) {
+    .in_page_nav .caption.show {
+        display: inline;
+    }
+}
+
+#to_top i {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
 .entry {
     width: 38.2vw;
     margin: auto;
