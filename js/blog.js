@@ -79,7 +79,7 @@ function createInfo(item) {
     ret.setAttribute("class", "info");
 
     if(item.author === "") {
-        ret.innerHTML += "By Chen Liu @liuchen1701";
+        ret.innerHTML += "By 刘晨 Chen Liu @liuchen1701";
     } else {
         ret.innerHTML += "转载 Repost";
     }
