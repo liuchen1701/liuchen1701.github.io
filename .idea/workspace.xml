@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0b5848b-183a-4da9-9a48-6147fc35e55f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/css/blog/color.css" afterPath="$PROJECT_DIR$/css/blog/color.css" />
-      <change beforePath="$PROJECT_DIR$/json/blog.json" afterPath="$PROJECT_DIR$/json/blog.json" />
+      <change beforePath="$PROJECT_DIR$/html/blog.html" afterPath="$PROJECT_DIR$/html/blog.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="blog.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="blog.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/blog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="70" column="19" lean-forward="false" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
+            <state relative-caret-position="569">
+              <caret line="140" column="29" lean-forward="false" selection-start-line="140" selection-start-column="29" selection-end-line="140" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -35,10 +33,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blog.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="blog.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/json/blog.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
+            <state relative-caret-position="6545">
               <caret line="385" column="4" lean-forward="false" selection-start-line="385" selection-start-column="4" selection-end-line="385" selection-end-column="4" />
               <folding />
             </state>
@@ -96,7 +94,6 @@
       <list>
         <option value="$PROJECT_DIR$/css/blog/image.css" />
         <option value="$PROJECT_DIR$/script/AddBlogEntry.py" />
-        <option value="$PROJECT_DIR$/html/blog.html" />
         <option value="$PROJECT_DIR$/css/aha/color.css" />
         <option value="$PROJECT_DIR$/css/home/color.css" />
         <option value="$PROJECT_DIR$/css/portfolio/color.css" />
@@ -106,6 +103,7 @@
         <option value="$PROJECT_DIR$/css/blog/fonts.css" />
         <option value="$PROJECT_DIR$/css/blog/color.css" />
         <option value="$PROJECT_DIR$/json/blog.json" />
+        <option value="$PROJECT_DIR$/html/blog.html" />
       </list>
     </option>
   </component>
@@ -304,12 +302,12 @@
       <workItem from="1523343972655" duration="6196000" />
       <workItem from="1523413713707" duration="16000" />
       <workItem from="1523422104718" duration="15031000" />
-      <workItem from="1523473719848" duration="1969000" />
+      <workItem from="1523473719848" duration="2428000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31187000" />
+    <option name="totallyTimeSpent" value="31646000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -701,14 +699,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/blog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="70" column="19" lean-forward="false" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/blog/color.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -719,8 +709,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/json/blog.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
+        <state relative-caret-position="6545">
           <caret line="385" column="4" lean-forward="false" selection-start-line="385" selection-start-column="4" selection-end-line="385" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="140" column="29" lean-forward="false" selection-start-line="140" selection-start-column="29" selection-end-line="140" selection-end-column="29" />
           <folding />
         </state>
       </provider>
