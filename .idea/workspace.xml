@@ -7,11 +7,6 @@
     <list default="true" id="b0b5848b-183a-4da9-9a48-6147fc35e55f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/css/blog/color.css" afterPath="$PROJECT_DIR$/css/blog/color.css" />
-      <change beforePath="$PROJECT_DIR$/css/blog/fonts.css" afterPath="$PROJECT_DIR$/css/blog/fonts.css" />
-      <change beforePath="$PROJECT_DIR$/css/blog/text.css" afterPath="$PROJECT_DIR$/css/blog/text.css" />
-      <change beforePath="$PROJECT_DIR$/html/aha.html" afterPath="$PROJECT_DIR$/html/aha.html" />
-      <change beforePath="$PROJECT_DIR$/html/blog.html" afterPath="$PROJECT_DIR$/html/blog.html" />
-      <change beforePath="$PROJECT_DIR$/js/blog.js" afterPath="$PROJECT_DIR$/js/blog.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,7 +19,7 @@
     <splitter split-orientation="horizontal" split-proportion="0.5488722">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="blog.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="blog.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/html/blog.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="357">
@@ -44,11 +39,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="color.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="color.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/blog/color.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+                <state relative-caret-position="365">
+                  <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -68,7 +63,7 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="blog.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="blog.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/blog.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="85">
@@ -78,11 +73,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="text.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="text.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/blog/text.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="603">
-                  <caret line="47" column="24" lean-forward="true" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+                <state relative-caret-position="416">
+                  <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
                   <folding />
                 </state>
               </provider>
@@ -119,9 +114,9 @@
         <option value="$PROJECT_DIR$/html/aha.html" />
         <option value="$PROJECT_DIR$/css/blog/fonts.css" />
         <option value="$PROJECT_DIR$/html/blog.html" />
+        <option value="$PROJECT_DIR$/js/blog.js" />
         <option value="$PROJECT_DIR$/css/blog/color.css" />
         <option value="$PROJECT_DIR$/css/blog/text.css" />
-        <option value="$PROJECT_DIR$/js/blog.js" />
       </list>
     </option>
   </component>
@@ -320,12 +315,12 @@
       <workItem from="1523343972655" duration="6196000" />
       <workItem from="1523413713707" duration="16000" />
       <workItem from="1523422104718" duration="15031000" />
-      <workItem from="1523473719848" duration="9096000" />
+      <workItem from="1523473719848" duration="9637000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38314000" />
+    <option name="totallyTimeSpent" value="38855000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -696,26 +691,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/json/blog.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6545">
-          <caret line="385" column="4" lean-forward="false" selection-start-line="385" selection-start-column="4" selection-end-line="385" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/blog/fonts.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/blog/text.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="47" column="24" lean-forward="true" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -728,18 +707,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/blog/color.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/blog.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="81" column="97" lean-forward="false" selection-start-line="81" selection-start-column="97" selection-end-line="81" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/blog.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6545">
+          <caret line="385" column="4" lean-forward="false" selection-start-line="385" selection-start-column="4" selection-end-line="385" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/blog/color.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/blog/text.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
           <folding />
         </state>
       </provider>

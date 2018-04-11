@@ -24,8 +24,10 @@ main a {
     opacity: 0.54;
 }
 
-.in_page_nav i:hover {
-    opacity: 0.87;
+@media only screen and (min-aspect-ratio: 1/1) {
+    .in_page_nav i:hover {
+        opacity: 0.87;
+    }
 }
 
 .in_page_nav .caption {
