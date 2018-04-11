@@ -5,6 +5,10 @@ header p {
 
 header a {
     color: black;
+    opacity: 0.54;
+}
+
+header a:hover {
     opacity: 0.87;
 }
 
@@ -22,6 +26,10 @@ main .main_content {
 
 main h2.title {
     opacity: 0.87;
+}
+
+main h2.title:hover {
+    opacity: 1.0;
 }
 
 main h6.info {
