@@ -19,15 +19,15 @@ function loadHeader(item, index) {
     article_header.appendChild(clickable);
 
     let title = createTitle(item);
-    article_header.appendChild(title);
+    clickable.appendChild(title);
 
     let info = createInfo(item);
     article_header.appendChild(info);
 
     entry.appendChild(article_header);
 
-    article_header.onclick = function() {
-        if(this.parentElement.childElementCount <= 1) {
+    clickable.onclick = function() {
+        if(this.parentElement.parentElement.childElementCount <= 1) {
             loadContent(item, index);
         }
 
@@ -40,7 +40,7 @@ function loadHeader(item, index) {
         }
 
         if(this.parentElement.childElementCount > 1) {
-            this.parentElement.lastElementChild.classList.toggle("show");
+            this.parentElement.parentElement.lastElementChild.classList.toggle("show");
         }
     };
 
