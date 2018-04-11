@@ -57,3 +57,7 @@ header .navigation .link {
     }
 }
 
+
+.main_content ul {
+    list-style-type: disc;
+}

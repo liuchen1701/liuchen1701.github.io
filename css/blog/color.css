@@ -28,6 +28,6 @@ main h6.info {
     opacity: 0.54;
 }
 
-blockquote {
-    opacity: 0.54;
+.main_content blockquote {
+    opacity: 0.62;
 }
