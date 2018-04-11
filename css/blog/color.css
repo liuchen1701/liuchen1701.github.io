@@ -1,19 +1,22 @@
 header p {
     color: black;
-    opacity: 87%;
+    opacity: 0.54;
 }
 
 header a {
     color: black;
-    opacity: 87%;
+    opacity: 0.87;
 }
 
-main p {
+main .main_content {
     color: black;
-    opacity: 87%;
+    opacity: 0.87;
 }
 
-main a {
-    color: black;
-    opacity: 87%;
+main h2.title {
+    opacity: 0.87;
+}
+
+main h6.info {
+    opacity: 0.54;
 }
