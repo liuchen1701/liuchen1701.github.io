@@ -27,3 +27,7 @@ main h2.title {
 main h6.info {
     opacity: 0.54;
 }
+
+blockquote {
+    opacity: 0.54;
+}

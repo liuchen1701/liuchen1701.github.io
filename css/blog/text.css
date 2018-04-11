@@ -28,7 +28,7 @@ header .navigation .link {
 
 .entry {
     text-align: left;
-    word-break: break-all;
+    overflow: hidden;
 }
 
 .article_header {
