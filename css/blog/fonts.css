@@ -1,13 +1,14 @@
 @import url(https://fonts.googleapis.com/earlyaccess/notosanssc.css);
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
 
 h2 {
-    font-family: 'Noto Sans SC', sans-serif;
+    font-family: "Noto Sans", "Noto Sans SC", "Noto Sans TC", sans-serif;
 }
 
 h6 {
-    font-family: 'Noto Sans SC', sans-serif;
+    font-family: "Noto Sans", "Noto Sans SC", "Noto Sans TC", sans-serif;
 }
 
 p {
-    font-family: 'Noto Sans SC', sans-serif;
+    font-family: "Noto Sans", "Noto Sans SC", "Noto Sans TC", sans-serif;
 }
