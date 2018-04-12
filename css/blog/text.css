@@ -36,6 +36,14 @@ header .navigation .link {
     padding: 0.618vh;
 }
 
+#to_article_header {
+    display: none;
+}
+
+#to_article_header.show {
+    display: block;
+}
+
 .in_page_nav .caption {
     display: none;
     position: relative;

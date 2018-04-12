@@ -39,8 +39,9 @@ function loadHeader(item, index) {
             }
         }
 
-        if(this.parentElement.childElementCount > 1) {
+        if(this.parentElement.parentElement.childElementCount > 1) {
             this.parentElement.parentElement.lastElementChild.classList.toggle("show");
+            document.getElementById("to_article_header").classList.toggle("show");
         }
 
         document.getElementById("to_article_header").setAttribute("href", "#entry" + index);
