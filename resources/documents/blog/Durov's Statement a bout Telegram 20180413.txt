@@ -1,0 +1,3 @@
+The power that local governments have over IT corporations is based on money. At any given moment, a government can crash their stocks by threatening to block revenue streams from its markets and thus force these companies to do strange things (remember how last year Apple moved iCloud servers to China).
+
+At Telegram, we have the luxury of not caring about revenue streams or ad sales. Privacy is not for sale, and human rights should not be compromised out of fear or greed.

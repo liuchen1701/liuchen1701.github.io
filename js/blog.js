@@ -46,7 +46,7 @@ function loadHeader(item, index) {
             this.parentElement.parentElement.lastElementChild.classList.remove("show");
             document.getElementById("to_article_header").classList.remove("show");
         }
-        
+
         document.getElementById("to_article_header").setAttribute("href", "#entry" + index);
     };
 
@@ -87,7 +87,7 @@ function createInfo(item) {
     if(item.author === "") {
         ret.innerHTML += "By 刘晨 Chen Liu @liuchen1701";
     } else {
-        ret.innerHTML += "转载 Repost";
+        ret.innerHTML += "转载 Repost" + "&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;" + item.author;
     }
 
     if(item.date === "") {
