@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0b5848b-183a-4da9-9a48-6147fc35e55f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/css/blog/text.css" afterPath="$PROJECT_DIR$/css/blog/text.css" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/js/blog.js" afterPath="$PROJECT_DIR$/js/blog.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,15 +16,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.51604396">
+    <splitter split-orientation="horizontal" split-proportion="0.43604395">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="blog.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/html/blog.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="198">
-                  <caret line="64" column="38" lean-forward="true" selection-start-line="64" selection-start-column="38" selection-end-line="64" selection-end-column="38" />
-                  <folding />
+                <state relative-caret-position="132">
+                  <caret line="67" column="10" lean-forward="true" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
+                  <folding>
+                    <element signature="e#6128#6134#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -32,7 +34,7 @@
           <file leaf-file-name="blog.json" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/json/blog.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="495">
+                <state relative-caret-position="12969">
                   <caret line="393" column="1" lean-forward="false" selection-start-line="393" selection-start-column="1" selection-end-line="393" selection-end-column="1" />
                   <folding>
                     <marker date="1523498195063" expanded="true" signature="7838:7841" ph="{&quot;title&quot;: &quot;观点 | Facebook数据泄露事件之后，还有哪些AI危机在等着我们？&quot;...}" />
@@ -54,11 +56,9 @@
           <file leaf-file-name="fonts.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/blog/fonts.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="396">
+                <state relative-caret-position="726">
                   <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-                  <folding>
-                    <marker date="1523498195020" expanded="true" signature="496:499" ph="{...}" />
-                  </folding>
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -70,8 +70,8 @@
           <file leaf-file-name="blog.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/blog.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="792">
-                  <caret line="43" column="82" lean-forward="false" selection-start-line="43" selection-start-column="82" selection-end-line="43" selection-end-column="82" />
+                <state relative-caret-position="990">
+                  <caret line="48" column="8" lean-forward="false" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
                   <folding />
                 </state>
               </provider>
@@ -80,7 +80,7 @@
           <file leaf-file-name="text.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/blog/text.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="933">
+                <state relative-caret-position="1419">
                   <caret line="43" column="19" lean-forward="false" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
                   <folding />
                 </state>
@@ -154,6 +154,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -191,10 +193,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -321,11 +321,12 @@
       <workItem from="1523422104718" duration="15031000" />
       <workItem from="1523473719848" duration="9637000" />
       <workItem from="1523498305897" duration="240000" />
+      <workItem from="1523659175481" duration="974000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39095000" />
+    <option name="totallyTimeSpent" value="40069000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="47" width="2762" height="1790" extended-state="6" />
@@ -375,7 +376,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2343">
           <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#6128#6134#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -399,7 +402,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#6128#6134#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -407,7 +412,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="88" lean-forward="false" selection-start-line="18" selection-start-column="88" selection-end-line="18" selection-end-column="88" />
-          <folding />
+          <folding>
+            <element signature="e#6128#6134#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -445,7 +452,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1190">
           <caret line="70" column="21" lean-forward="false" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
-          <folding />
+          <folding>
+            <element signature="e#6128#6134#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -484,7 +493,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1190">
           <caret line="70" column="21" lean-forward="false" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
-          <folding />
+          <folding>
+            <element signature="e#6128#6134#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -536,7 +547,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="75" column="25" lean-forward="true" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
-          <folding />
+          <folding>
+            <element signature="e#6128#6134#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -574,7 +587,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1421">
           <caret line="102" column="14" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="102" selection-end-column="14" />
-          <folding />
+          <folding>
+            <element signature="e#6128#6134#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -674,7 +689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2754">
           <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -682,7 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="63" column="30" lean-forward="false" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -696,17 +709,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/blog/fonts.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
+        <state relative-caret-position="726">
           <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-          <folding>
-            <marker date="1523498195020" expanded="true" signature="496:499" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/json/blog.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
+        <state relative-caret-position="12969">
           <caret line="393" column="1" lean-forward="false" selection-start-line="393" selection-start-column="1" selection-end-line="393" selection-end-column="1" />
           <folding>
             <marker date="1523498195063" expanded="true" signature="7838:7841" ph="{&quot;title&quot;: &quot;观点 | Facebook数据泄露事件之后，还有哪些AI危机在等着我们？&quot;...}" />
@@ -724,24 +735,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/blog/text.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="933">
+        <state relative-caret-position="1419">
           <caret line="43" column="19" lean-forward="false" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/blog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="43" column="82" lean-forward="false" selection-start-line="43" selection-start-column="82" selection-end-line="43" selection-end-column="82" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/blog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="64" column="38" lean-forward="true" selection-start-line="64" selection-start-column="38" selection-end-line="64" selection-end-column="38" />
+        <state relative-caret-position="132">
+          <caret line="67" column="10" lean-forward="true" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
+          <folding>
+            <element signature="e#6128#6134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/blog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="48" column="8" lean-forward="false" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
           <folding />
         </state>
       </provider>

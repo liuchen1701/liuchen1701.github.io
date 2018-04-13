@@ -39,11 +39,14 @@ function loadHeader(item, index) {
             }
         }
 
-        if(this.parentElement.parentElement.childElementCount > 1) {
-            this.parentElement.parentElement.lastElementChild.classList.toggle("show");
-            document.getElementById("to_article_header").classList.toggle("show");
+        if(!this.parentElement.parentElement.lastElementChild.classList.contains("show")) {
+            this.parentElement.parentElement.lastElementChild.classList.add("show");
+            document.getElementById("to_article_header").classList.add("show");
+        } else {
+            this.parentElement.parentElement.lastElementChild.classList.remove("show");
+            document.getElementById("to_article_header").classList.remove("show");
         }
-
+        
         document.getElementById("to_article_header").setAttribute("href", "#entry" + index);
     };
 
