@@ -18,6 +18,11 @@ header .navigation .link {
   margin-top: 0.618vh;
 }
 
+main {
+    padding-top: 6.18vh;
+    padding-bottom: 6.18vh;
+}
+
 .in_page_nav {
     position: fixed;
     display: inline-block;
@@ -69,7 +74,7 @@ header .navigation .link {
     width: 38.2vw;
     margin: auto;
     display: block;
-    padding-top: 3.82vh;
+    /*padding-top: 3.82vh;*/
     padding-bottom: 3.82vh;
 }
 
