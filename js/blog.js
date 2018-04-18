@@ -51,7 +51,13 @@ function loadHeader(item, index) {
 
 
         // Google Analytics Event
-        ga('send', 'event', 'Blog', 'open article', eventValue=index);
+        // ga('send', 'event', 'Blog', 'open article', eventValue=index);
+        ga('send', {
+            hitType: 'event',
+            eventCategory: 'Blog',
+            eventAction: 'open article',
+            eventValue: index
+        });
     };
 
     document.getElementsByTagName("main")[0].appendChild(entry);
