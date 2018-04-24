@@ -50,14 +50,14 @@ function loadHeader(item, index) {
         document.getElementById("to_article_header").setAttribute("href", "#entry" + index);
 
 
-        // Google Analytics Event
-        // ga('send', 'event', 'Blog', 'open article', eventValue=index);
-        ga('send', {
-            hitType: 'event',
-            eventCategory: 'Blog',
-            eventAction: 'open article',
-            eventValue: index
-        });
+        // // Google Analytics Event
+        // // ga('send', 'event', 'Blog', 'open article', eventValue=index);
+        // ga('send', {
+        //     hitType: 'event',
+        //     eventCategory: 'Blog',
+        //     eventAction: 'open article',
+        //     eventValue: index
+        // });
     };
 
     document.getElementsByTagName("main")[0].appendChild(entry);
